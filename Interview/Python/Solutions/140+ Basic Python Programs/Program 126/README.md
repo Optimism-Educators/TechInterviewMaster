@@ -1,7 +1,3 @@
-# Program126
-Here is the **README.md** file for **Program 126 – String Order Checker**:
-
----
 
 ## 📘 Program 126 – String Order Checker
 
@@ -97,6 +93,3 @@ For the input `"abc"`, the function compares:
 - **Input**: `"123"`
   - **Output**: `True`
 
----
-
-Let me know if you need any further modifications!
