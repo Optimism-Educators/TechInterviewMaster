@@ -1,9 +1,4 @@
-# Program81
-Absolutely! Here's **Program 81** in your preferred style and formatting:
 
----
-
-```markdown
 # 🔢 Program 81: Generator Class to Yield Numbers Divisible by 7
 
 This Python program defines a class that includes a generator function to iterate over numbers divisible by 7 in a given range from `0` to `n`.
@@ -101,11 +96,5 @@ Numbers divisible by 7 from 0 to 50:
 
 - This demonstrates how to use Python classes and generators together.
 - Generators are memory-efficient because they yield values one at a time.
-
----
-
-Let me know if you want Program 82 next or want all these formatted into a single notebook or document! 🧾
-
-```
 
 ---
