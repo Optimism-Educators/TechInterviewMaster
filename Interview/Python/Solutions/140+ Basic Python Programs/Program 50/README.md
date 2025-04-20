@@ -1,9 +1,4 @@
-# Program50
-Here's the explanation and code for **Program 50: Multiply All Numbers in the List**:
 
----
-
-```markdown
 # 📝 Program 50: Multiply All Numbers in the List (Python)
 
 This Python program multiplies all the numbers in a given list.
