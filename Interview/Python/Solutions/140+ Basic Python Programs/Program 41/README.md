@@ -78,10 +78,3 @@ remove_punctuation/
 - **Remove digits** by modifying the `translator` to also exclude numbers.
 - **Remove specific punctuation marks** by updating the `string.punctuation` list or defining your own custom punctuation characters.
 
----
-
-Happy Coding! 🚀
-
-```
-
-This program demonstrates an easy way to clean text from unwanted punctuation marks. Let me know if you'd like to dive deeper into any part of the code or its logic!
