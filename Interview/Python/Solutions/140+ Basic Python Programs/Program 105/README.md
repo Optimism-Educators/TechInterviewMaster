@@ -1,72 +1,78 @@
 # Program105
-Sure! Here's a **README.md** content for **Program 106: `move_to_end` function** — structured to explain purpose, usage, examples, and more.
+Sure! Here's a sample `README.md` file content for **Program 105: Recursive Factorial Function**:
 
 ---
 
-## 🧮 Program 106: Move All Elements of One Type to End of List
+```markdown
+# 📘 Program 105: Recursive Factorial Function
 
-### 📌 Description
+## 🧮 Description
 
-This Python function, `move_to_end(lst, element)`, moves **all occurrences of a specific element** to the **end of a given list**, while preserving the order of the other elements.
+This Python program defines a **recursive function** to compute the factorial of a non-negative integer.  
+The factorial of a number `n` is defined as:
 
-### ✅ Function Signature
-
-```python
-def move_to_end(lst, element):
 ```
 
-### 🔧 Parameters
+n! = n × (n - 1) × (n - 2) × ... × 1  
+0! = 1
 
-- `lst` *(list)*: A list containing elements of any type (integers, strings, etc.).
-- `element` *(any)*: The specific element to be moved to the end of the list.
+```
 
-### 📤 Returns
-
-- A new list with all occurrences of the specified element moved to the end.
+This program uses recursion to solve the problem efficiently.
 
 ---
 
-### 💡 Example Usage
+## 📌 Function Definition
 
 ```python
-print(move_to_end([1, 3, 2, 4, 4, 1], 1))
-# ➞ [3, 2, 4, 4, 1, 1]
-
-print(move_to_end([7, 8, 9, 1, 2, 3, 4], 9))
-# ➞ [7, 8, 1, 2, 3, 4, 9]
-
-print(move_to_end(["a", "a", "a", "b"], "a"))
-# ➞ ["b", "a", "a", "a"]
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
 ```
 
 ---
 
-### 🧠 How It Works
-
-- The function separates the elements **not equal** to the target into one list.
-- It then adds all instances **equal** to the target element at the end.
-
----
-
-### 🛠️ Full Code
+## ✅ Examples
 
 ```python
-def move_to_end(lst, element):
-    # Filter out elements not equal to the target
-    others = [x for x in lst if x != element]
-    
-    # Count and add the target element at the end
-    targets = [x for x in lst if x == element]
-    
-    return others + targets
+print(factorial(5))  # ➞ 120
+print(factorial(3))  # ➞ 6
+print(factorial(1))  # ➞ 1
+print(factorial(0))  # ➞ 1
+```
+
+### 💡 Output
+
+```
+120
+6
+1
+1
 ```
 
 ---
 
-### 🧪 Test It Yourself
+## 📂 Use Cases
 
-Try modifying the list and element to see how it rearranges the elements!
+- Mathematical computations
+- Combinatorics (e.g., calculating permutations and combinations)
+- Recursion practice for beginners
 
 ---
 
-Let me know if you'd like this saved in a `.md` file or if you'd like to generate more README files like this for your other programs!
+## 🛡️ Notes
+
+- Input should be a non-negative integer.
+- Recursive approach can hit a recursion depth limit for very large numbers.
+
+---
+
+## ✨ Author
+
+Program created for basic Python learning and practice.
+
+```
+
+Let me know if you'd like this README saved as a `.md` file or included in your repo structure!
