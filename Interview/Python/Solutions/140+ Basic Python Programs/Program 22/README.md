@@ -1,8 +1,3 @@
-Here's a clean and well-formatted `README.md` file for **Program – Find the Least Common Multiple (LCM) in Python**:
-
----
-
-```markdown
 # 🔢 Program: Find the Least Common Multiple (LCM) in Python
 
 This Python program calculates the **Least Common Multiple (LCM)** of two numbers entered by the user.
@@ -104,10 +99,3 @@ lcm_program/
 - Create a GUI version using Tkinter.
 - Visualize multiples using matplotlib.
 
----
-
-Happy Coding! 💻🎯
-
-```
-
-Let me know if you'd like this exported as a `.md` file or if you'd like similar templates for GCD or HCF too!
