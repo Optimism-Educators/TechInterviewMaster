@@ -93,13 +93,3 @@ happy_numbers/
 - Visualize the process of calculating the sum of the squares of digits for each number.
 
 ---
-
-Happy Coding! 🚀
-
-```
-
----
-
-This program checks all numbers from 1 to 100 and prints the ones that are happy numbers. It uses a helper function `is_happy_number` to determine whether a given number is happy by checking if it eventually reaches 1 or falls into a cycle.
-
-Let me know if you need further explanations or adjustments!
