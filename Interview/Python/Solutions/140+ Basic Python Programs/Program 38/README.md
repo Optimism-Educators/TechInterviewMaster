@@ -1,9 +1,4 @@
-# Program38
-Absolutely! Here's a clean and beginner-friendly markdown explanation and code for:
 
----
-
-```markdown
 # ✖️ Program 38: Multiply Two Matrices in Python
 
 This Python program multiplies two matrices using **nested loops**, given that the number of columns in the first matrix equals the number of rows in the second.
