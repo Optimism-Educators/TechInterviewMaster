@@ -1,7 +1,3 @@
-# Program113
-Sure! Here's **Program 113** in the same format:
-
----
 
 ## 📘 Program 113 - Add Index to List Elements
 
