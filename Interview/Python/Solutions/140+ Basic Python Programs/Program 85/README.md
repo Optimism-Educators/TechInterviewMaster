@@ -73,7 +73,3 @@ hello world!hello world!hello world!hello world!
 - Always use `.encode()` when compressing and `.decode()` when decompressing strings.
 
 ---
-
-Ready for **Program 86**? 😎
-
-```
