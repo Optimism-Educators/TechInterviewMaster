@@ -1,7 +1,3 @@
-# Program124
-Here is the **README.md** file for **Program 124 – Secret Society Name**:
-
----
 
 ## 📘 Program 124 – Secret Society Name
 
@@ -76,7 +72,3 @@ For the input `["Phoebe", "Chandler", "Rachel", "Ross", "Monica", "Joey"]`, the 
 - Extract first letters: `['P', 'C', 'R', 'R', 'M', 'J']`
 - Sort them alphabetically: `['C', 'J', 'M', 'P', 'R', 'R']`
 - Concatenate the letters: `"CJMPRR"`
-
----
-
-Let me know if you need further changes or additions!
