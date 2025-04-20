@@ -1,9 +1,4 @@
-# Program80
-Sure! Here's **Program 80** in your preferred structured format:
 
----
-
-```markdown
 # 🔐 Program 80: Password Validation Checker
 
 This Python program checks the validity of passwords based on a set of security criteria commonly required during registration on a website.
@@ -97,11 +92,5 @@ ABd1234@1
 
 - This is useful for enforcing password policies in web or app development.
 - Regular expressions make it easy to validate character presence.
-
----
-
-Let me know if you want the HTML version of this or want to continue with Program 81! 🚀
-
-```
 
 ---
