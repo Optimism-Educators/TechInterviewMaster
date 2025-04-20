@@ -1,9 +1,4 @@
-# Program95
-Here’s **Program 95** written in the format you requested:
 
----
-
-```markdown
 # 🟩 Program 95: Area of a Hexagon
 
 This Python program calculates the area of a regular hexagon given the side length \( x \).
@@ -85,7 +80,3 @@ print(area_of_hexagon(3))  # Output: 23.4
 - The result is rounded to one decimal place using the `round()` function for better readability.
 
 ---
-
-Let me know if you'd like any further adjustments! ✨
-
-```
