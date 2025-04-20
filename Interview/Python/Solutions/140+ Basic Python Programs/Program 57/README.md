@@ -1,9 +1,4 @@
-# Program57
-Absolutely! Here's **Program 57** in the same consistent format:
 
----
-
-```markdown
 # 📝 Program 57: Remove Empty List from List (Python)
 
 This Python program removes all **empty lists** (`[]`) from a list that may contain other lists, elements, or empty lists.
