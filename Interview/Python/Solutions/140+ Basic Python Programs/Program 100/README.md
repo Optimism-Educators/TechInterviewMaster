@@ -1,9 +1,4 @@
-# Program100
-Here’s **Program 100** written in the format you requested:
 
----
-
-```markdown
 # 🟩 Program 100: Calculate Factorial Recursively
 
 This Python program calculates the factorial of a number using recursion.
@@ -79,7 +74,3 @@ factorial(0)
 - This function uses a simple recursive approach to calculate the factorial.
 
 ---
-
-Let me know if you need further adjustments! ✨
-
-```
