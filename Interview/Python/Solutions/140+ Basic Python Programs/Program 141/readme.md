@@ -1,7 +1,3 @@
-Here is the **README.md** file for **Program 141 – ASCII Capitalization**:
-
----
-
 ## 📘 Program 141 – ASCII Capitalization
 
 ### 📝 Description  
@@ -107,6 +103,3 @@ For the input `"Oh what a beautiful morning."`:
 - **Input**: `"Oh what a beautiful morning."`
   - **Output**: `"oH wHaT a BeauTiFuL moRNiNg."`
 
----
-
-Let me know if you need any further modifications or details!
