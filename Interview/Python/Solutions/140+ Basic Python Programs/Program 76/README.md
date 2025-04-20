@@ -93,11 +93,3 @@ bag,hello,without,world
 This program can be useful for sorting lists of words or creating alphabetically ordered lists for tasks such as indexing, categorizing, or organizing data.
 
 ---
-
-Let me know if you'd like further clarifications or modifications! 😊
-
-```
-
----
-
-Let me know if you need any more adjustments or additional programs!
