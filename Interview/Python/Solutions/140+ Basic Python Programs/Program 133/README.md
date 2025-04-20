@@ -97,7 +97,3 @@ For the input `[0, 1, 1, 1, 1, 1, 1, 1]`:
   
 - **Input**: `[0, 1, 1, 1, 1, 1, 1, 1]`
   - **Output**: `0`
-
----
-
-Let me know if you need any further modifications!
