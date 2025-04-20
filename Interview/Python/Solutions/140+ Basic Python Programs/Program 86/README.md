@@ -1,9 +1,4 @@
-# Program86
-Sure! Here's **Program 86** in your preferred format:
 
----
-
-```markdown
 # 🔍 Program 86: Binary Search in a Sorted List
 
 This Python program implements a **binary search** function to search for an item in a sorted list. It returns the **index** of the element if found, otherwise `-1`.
