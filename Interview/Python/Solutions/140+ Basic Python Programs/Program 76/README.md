@@ -1,9 +1,4 @@
-# Program76
-Here is **Program 76** in the requested format:
 
----
-
-```markdown
 # 📝 Program 76: Sort Words Alphabetically in a Comma-Separated Sequence
 
 This Python program accepts a comma-separated sequence of words as input and then prints the words in a comma-separated sequence after sorting them alphabetically.
