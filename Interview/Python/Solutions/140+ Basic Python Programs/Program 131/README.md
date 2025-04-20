@@ -1,7 +1,3 @@
-# Program131
-Here is the **README.md** file for **Program 131 – Mean of All Digits**:
-
----
 
 ## 📘 Program 131 – Mean of All Digits
 
@@ -105,7 +101,3 @@ For the input `12345`:
   
 - **Input**: `666`
   - **Output**: `6`
-
----
-
-Let me know if you need any further modifications!
