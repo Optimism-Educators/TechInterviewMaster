@@ -1,9 +1,4 @@
-# Program110
-Here is the `README.md` file for **Program 110: Find Indices of Capital Letters in a String**:
 
----
-
-```markdown
 # 📘 Program 110: Find Indices of Capital Letters in a String
 
 ## 🧮 Description
