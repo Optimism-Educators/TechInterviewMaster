@@ -1,9 +1,4 @@
-# Program96
-Here’s **Program 96** written in the format you requested:
 
----
-
-```markdown
 # 🟩 Program 96: Decimal to Binary Conversion
 
 This Python program converts a decimal (base-10) number into its binary (base-2) representation.
