@@ -1,7 +1,3 @@
-# Program128
-Here is the **README.md** file for **Program 128 – Multiply Numbers from String**:
-
----
 
 ## 📘 Program 128 – Multiply Numbers from String
 
@@ -102,7 +98,3 @@ For the input `"1, 2, 3, 4"`, the function:
   
 - **Input**: `"54, 75, 453, 0"`
   - **Output**: `0`
-
----
-
-Let me know if you need any further modifications!
