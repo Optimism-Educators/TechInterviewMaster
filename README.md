@@ -87,7 +87,5 @@ We welcome contributions! Please read the [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT
 
 ## Let's build and learn together! 🌟
 
-
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
-
