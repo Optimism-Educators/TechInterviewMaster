@@ -1,7 +1,3 @@
-# Program112
-Sure! Here's **Program 112** in the same format:
-
----
 
 ## 📘 Program 112 - Filter Integers from a Mixed List
 
@@ -59,7 +55,3 @@ print(filter_list(["Nothing", "here"]))               # Output: []
 
 - This program uses **list comprehension** for a clean and efficient solution.
 - It strictly checks for `int` type using `type(x) == int`.
-
----
-
-Let me know if you want the README version for this one too or if you're compiling a notebook/document from these!
