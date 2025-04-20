@@ -109,11 +109,3 @@ The output values are: 18,22,24
 This type of calculation can be useful in various scientific and engineering applications where specific formulas need to be applied to a series of values.
 
 ---
-
-Let me know if you'd like further clarification or any adjustments to the program! 😊
-
-```
-
----
-
-Feel free to ask if you need further modifications!
