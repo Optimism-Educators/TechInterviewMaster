@@ -57,11 +57,3 @@ Converted Dictionary: {'a': 10, 'b': 20, 'c': 30, 'd': 40}
 3. **Result**: The result is a flat dictionary where each tuple from the list is represented as a key-value pair in the dictionary.
 
 ---
-
-📘 This program is helpful when you have key-value data in list format and need to convert it into a dictionary for easier lookup and manipulation.
-
-```
-
----
-
-Let me know if you need further clarification or adjustments! 😊
