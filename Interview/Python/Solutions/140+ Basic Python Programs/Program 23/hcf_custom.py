@@ -1,5 +1,6 @@
-# Author: <NAME>
-# Date: <DATE>
+# Author: <Antim Pal>
+# Date: <2025-04-21>
+# Title: LCM of Multiple Numbers
 # Description: Write a Python program to find the LCM of multiple numbers.
 # The program should take a list of numbers as input and return the LCM of those numbers.
 # The LCM of two numbers a and b can be calculated using the formula:
