@@ -73,7 +73,3 @@ print(reverse("Radar"))        # ➞ "RADAr"
 - `"Radar"` → reversed → `"radaR"` → swapcase → `"RADAr"`
 
 ---
-
-✅ This function combines Python string slicing and case transformation for a simple yet effective transformation.
-
-```
