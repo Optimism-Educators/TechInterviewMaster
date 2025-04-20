@@ -7,7 +7,10 @@
   <img height="25px" src="https://img.shields.io/github/license/iamAntimPal/TechInterviewMaster" alt="License">
   <a href="https://makeapullrequest.com"><img height="25px" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"></a>
   <img height="25px" src="https://img.shields.io/github/last-commit/iamAntimPal/TechInterviewMaster"/>
+  <a href="https://wakatime.com/badge/user/f1f7c244-1d72-4129-94b7-6b4d1972b55a/project/c0a0249d-de59-4cbe-aa51-68012ee6f377"><img height="25px"src="https://wakatime.com/badge/user/f1f7c244-1d72-4129-94b7-6b4d1972b55a/project/c0a0249d-de59-4cbe-aa51-68012ee6f377.svg" alt="wakatime"></a>
 </div>
+
+[![wakatime](https://wakatime.com/badge/user/f1f7c244-1d72-4129-94b7-6b4d1972b55a/project/c0a0249d-de59-4cbe-aa51-68012ee6f377.svg)](https://wakatime.com/badge/user/f1f7c244-1d72-4129-94b7-6b4d1972b55a/project/c0a0249d-de59-4cbe-aa51-68012ee6f377)
 
 # TechInterviewMaster
 
