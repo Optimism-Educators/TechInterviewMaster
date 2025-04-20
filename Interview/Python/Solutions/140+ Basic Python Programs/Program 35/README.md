@@ -1,9 +1,4 @@
-# Program35
-Sure! Here's a well-structured explanation and Python program for:
 
----
-
-```markdown
 # 🔀 Program 35: Split the Array and Add the First Part to the End
 
 This program demonstrates how to **split an array** (list) at a specific position and then **move the first part to the end** of the array.
