@@ -1,9 +1,4 @@
-# Program54
-Here’s the explanation and code for **Program 54: Find N Largest Elements from a List**:
 
----
-
-```markdown
 # 📝 Program 54: Find N Largest Elements from a List (Python)
 
 This Python program finds the **N largest elements** from a given list.
