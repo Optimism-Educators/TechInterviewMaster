@@ -91,9 +91,3 @@ cube_sum/
 - Visualize the cube values using a bar chart (`matplotlib`).
 
 ---
-
-Happy Coding! 💻✨
-
-```
-
-Let me know if you’d also like the **loop-based version** or one with **graphical output**!
