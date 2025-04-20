@@ -1,7 +1,3 @@
-# Program111
-Here’s the **README file** for **Program 111 – Find Even Numbers Using List Comprehension**:
-
----
 
 ## 📘 Program 111 - Find Even Numbers Using List Comprehension
 
@@ -59,7 +55,3 @@ print(find_even_nums(2))  # Output: [2]
 
 - This program is a concise and Pythonic way to generate even numbers using list comprehensions.
 - Ensure `n` is greater than or equal to 1 to avoid returning an empty list.
-
----
-
-Let me know if you'd like to bundle all README files into one repo or document!
