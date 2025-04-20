@@ -65,12 +65,3 @@ print(index_of_caps("sUn"))        # ➞ [1]
 
 ---
 
-## ✨ Author
-
-Program created for basic Python learning and practice.
-
-```
-
----
-
-Let me know if you'd like to save this as a `.md` file or if you'd like to include it in your project!
