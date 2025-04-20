@@ -97,8 +97,4 @@ largest_element_array/
 
 ---
 
-Happy Coding! 💻🌟
 
-```
-
-Would you like this added to a PDF or formatted as part of a full set of programs?
