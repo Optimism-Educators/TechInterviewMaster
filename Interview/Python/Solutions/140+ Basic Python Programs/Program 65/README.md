@@ -1,9 +1,4 @@
-# Program65
-Here is **Program 65** in the requested format:
 
----
-
-```markdown
 # 📝 Program 65: Find All Duplicate Characters in a String (Python)
 
 This Python program identifies all the **duplicate characters** in a given string.
@@ -70,11 +65,3 @@ Duplicate characters: ['r', 'g', 'm']
 2. **Finding duplicates**: The list comprehension checks for characters that appear more than once and stores them in the `duplicates` list.
 
 ---
-
-📘 This program is useful for detecting repeated characters in strings and can be applied in text analysis or string manipulation tasks.
-
-```
-
----
-
-Let me know if you'd like another program or more clarification! 😊
