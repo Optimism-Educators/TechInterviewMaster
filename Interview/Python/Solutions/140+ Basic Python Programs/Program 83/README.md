@@ -1,9 +1,4 @@
-# Program83
-Absolutely! Here's **Program 83** in your requested format:
 
----
-
-```markdown
 # 👥 Program 83: Person Class with Male and Female Subclasses
 
 This Python program defines a base class `Person` and two subclasses `Male` and `Female`, each with a method `getGender()` that returns the appropriate gender.
