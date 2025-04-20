@@ -77,11 +77,3 @@ deep_cloned_list = copy.deepcopy(original_list)
 ```
 
 ---
-
-Happy Coding! ✨🐍
-
-```
-
----
-
-Would you like me to continue with **Program 59** next?
