@@ -100,6 +100,3 @@ For the input `12567`, the function compares:
 - **Input**: `44444444`
   - **Output**: `True`
 
----
-
-Let me know if you need any further modifications!
