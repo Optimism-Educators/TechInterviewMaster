@@ -1,7 +1,3 @@
-# Program133
-Here is the **README.md** file for **Program 133 – Find the Unique Number**:
-
----
 
 ## 📘 Program 133 – Find the Unique Number
 
