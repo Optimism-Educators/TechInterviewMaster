@@ -1,9 +1,4 @@
-# Program30
-Sure! Here's a well-structured explanation and Python code for **Program 30 – Calculating the Natural Logarithm of a Number**:
 
----
-
-```markdown
 # 📐 Program 30: Calculate the Natural Logarithm (Python)
 
 This Python program calculates the **natural logarithm (ln)** of any positive number using the built-in `math` module.
@@ -108,8 +103,3 @@ natural_logarithm/
 
 ---
 
-Happy Learning! 🌟🔢
-
-```
-
-Let me know if you’d like a version with plotting or GUI integration!
