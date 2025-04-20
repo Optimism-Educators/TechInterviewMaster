@@ -1,7 +1,3 @@
-# Program135
-Here is the **README.md** file for **Program 135 – Sort List of Strings by Length**:
-
----
 
 ## 📘 Program 135 – Sort List of Strings by Length
 
@@ -103,6 +99,3 @@ The sorted list will be: `["Raphael", "Leonardo", "Donatello", "Michelangelo"]`.
 - **Input**: `["Turing", "Einstein", "Jung"]`
   - **Output**: `["Jung", "Turing", "Einstein"]`
 
----
-
-Let me know if you need any additional adjustments!
