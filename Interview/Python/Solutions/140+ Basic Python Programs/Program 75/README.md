@@ -1,9 +1,4 @@
-# Program75
-Here is **Program 75** in the requested format:
 
----
-
-```markdown
 # 📝 Program 75: Generate a 2-Dimensional Array Based on Input Digits
 
 This Python program takes two input digits, `X` and `Y`, and generates a 2-dimensional array where each element in the array is the product of its row index (`i`) and column index (`j`).
