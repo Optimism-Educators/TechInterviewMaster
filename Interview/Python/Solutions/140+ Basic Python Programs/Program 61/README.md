@@ -1,9 +1,4 @@
-# Program61
-Absolutely! Here's **Program 61** in your preferred format:
 
----
-
-```markdown
 # 📝 Program 61: Remove the i-th Character from a String (Python)
 
 This Python program removes a character from a specified index `i` in a given string.
