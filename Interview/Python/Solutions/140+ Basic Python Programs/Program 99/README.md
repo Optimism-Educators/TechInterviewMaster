@@ -1,8 +1,4 @@
-Here’s **Program 99** written in the format you requested:
 
----
-
-```markdown
 # 🟩 Program 99: Replace All Vowels in a String
 
 This Python program replaces all the vowels in a string with a specified character.
@@ -71,8 +67,3 @@ print(replace_vowels("shakespeare", "*"))         # Output: "shkspr*"
 - Both lowercase and uppercase vowels are considered for replacement.
 
 ---
-
-Let me know if you'd like any further modifications! ✨
-
-```
- 
