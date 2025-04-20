@@ -1,9 +1,4 @@
-# Program68
-Here is **Program 68** in the requested format:
 
----
-
-```markdown
 # 📝 Program 68: Find the Sum of All Items in a Dictionary (Python)
 
 This Python program calculates the sum of all values in a dictionary.
@@ -64,10 +59,3 @@ The sum of all items in the dictionary is: 100
 
 ---
 
-📘 This program is useful when you need to quickly sum up all the values stored in a dictionary, which can be applied in scenarios like calculating totals in financial data, inventory tracking, and more.
-
-```
-
----
-
-Feel free to let me know if you need further details or adjustments! 😊
