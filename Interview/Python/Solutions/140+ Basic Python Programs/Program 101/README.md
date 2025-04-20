@@ -1,9 +1,4 @@
-# Program101
-Here’s **Program 101** written in your requested style:
 
----
-
-```markdown
 # 🟩 Program 101: Hamming Distance Between Two Strings
 
 This Python program calculates the Hamming distance between two strings of equal length.
