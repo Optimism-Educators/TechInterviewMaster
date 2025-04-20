@@ -1,9 +1,4 @@
-# Program26
-Absolutely! Here's a detailed and well-structured `README.md` for **Program 26 – Simple Calculator in Python**:
 
----
-
-```markdown
 # ➕ Program 26: Simple Calculator (Python)
 
 This Python program functions as a basic calculator that performs **four mathematical operations**: **Addition, Subtraction, Multiplication, and Division**.
