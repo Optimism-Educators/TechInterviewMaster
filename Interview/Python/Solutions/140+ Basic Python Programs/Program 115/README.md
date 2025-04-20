@@ -72,8 +72,3 @@ program_115/
 
 Triangular numbers are useful in combinatorics and often appear in problems involving summation or counting pairs.
 
-```
-
----
-
-Let me know if you want this saved as a file or included in a GitHub-style repo!
