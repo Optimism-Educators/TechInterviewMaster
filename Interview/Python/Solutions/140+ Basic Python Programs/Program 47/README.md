@@ -1,9 +1,4 @@
-# Program47
-Here's the explanation and code for **Program 47: Check if a Number is a Harshad Number**:
 
----
-
-```markdown
 # 📝 Program 47: Check if a Number is a Harshad Number (Python)
 
 This Python program checks whether a given number is a **Harshad Number**. A **Harshad Number** (or **Niven Number**) is an integer that is divisible by the sum of its digits. 
