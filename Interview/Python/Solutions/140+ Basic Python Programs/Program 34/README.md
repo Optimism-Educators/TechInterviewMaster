@@ -1,9 +1,4 @@
-# Program34
-Absolutely! Here's the structured and easy-to-understand explanation for:
 
----
-
-```markdown
 # 🔁 Program 34: Python Program for Array Rotation
 
 This program demonstrates how to **rotate** the elements of an array (list) in Python.
