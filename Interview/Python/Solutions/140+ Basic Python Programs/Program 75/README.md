@@ -95,10 +95,4 @@ This type of program is useful for generating tables, matrices, or grids where t
 
 ---
 
-Let me know if you'd like further clarifications or adjustments to the program! 😊
 
-```
-
----
-
-Feel free to ask for any changes or additional information!
