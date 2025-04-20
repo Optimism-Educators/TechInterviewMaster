@@ -1,9 +1,4 @@
-# Program82
-Sure! Here's **Program 82** in the same detailed and structured format you’ve been using:
 
----
-
-```markdown
 # 📘 Program 82: Compute Word Frequency and Sort by Word
 
 This Python program computes the frequency of each word from an input sentence and displays the result in alphanumerical order of the words.
@@ -114,7 +109,3 @@ to:1
 - You can use regex or string punctuation removal for more advanced text processing.
 
 ---
-
-Let me know if you want a punctuation-cleaning version or if you’re ready for **Program 83**! 😄
-
-```
