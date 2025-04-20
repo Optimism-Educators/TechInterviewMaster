@@ -1,9 +1,4 @@
-# Program63
-Sure! Here's **Program 63** formatted just the way you like:
 
----
-
-```markdown
 # 📝 Program 63: Check if a Given String is a Binary String (Python)
 
 This Python program checks whether a given string consists **only of binary digits (0 and 1)**.
