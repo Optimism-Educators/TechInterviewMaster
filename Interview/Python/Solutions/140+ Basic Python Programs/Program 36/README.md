@@ -1,9 +1,4 @@
-# Program36
-Absolutely! Here's your well-structured and clearly explained markdown for:
 
----
-
-```markdown
 # 📈 Program 36: Check if a Given Array is Monotonic
 
 This Python program checks whether a given array is **monotonic**, meaning that the elements are either entirely **non-increasing** or **non-decreasing**.
