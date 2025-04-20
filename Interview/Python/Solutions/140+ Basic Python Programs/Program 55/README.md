@@ -68,11 +68,3 @@ even_numbers_in_list/
 - Add a **GUI** using Tkinter for list input and output display.
 
 ---
-
-Happy Coding! 👨‍💻🚀
-
-```
-
----
-
-Let me know if you'd like the next program in the same format!
