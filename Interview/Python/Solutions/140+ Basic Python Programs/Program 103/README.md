@@ -1,9 +1,4 @@
-# Program103
-Sure! Here's **Program 103** in the same format as you've been using:
 
----
-
-```markdown
 # 🟩 Program 103: Reverse String with Opposite Case
 
 This Python program takes a string as input and returns it **reversed**, with each character’s case **inverted** (uppercase to lowercase and vice versa).
