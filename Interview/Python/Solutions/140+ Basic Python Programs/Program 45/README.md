@@ -92,13 +92,4 @@ happy_number/
 - Extend the program to handle **negative numbers** and other edge cases.
 
 ---
-
-Happy Coding! 🚀
-
-```
-
----
-
-This Python program checks if a number is happy by repeatedly calculating the sum of the squares of its digits and checking whether the sum reaches 1. If it does, the number is happy; if it loops infinitely without reaching 1, it is not.
-
-Let me know if you need any further clarification or adjustments!
+ 
