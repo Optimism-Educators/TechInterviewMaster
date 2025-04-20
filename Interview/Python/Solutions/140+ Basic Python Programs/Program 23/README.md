@@ -1,8 +1,4 @@
-Here’s a polished and structured `README.md` for **Program 23 – Find HCF (Highest Common Factor)** in Python:
 
----
-
-```markdown
 # 🧮 Program 23: Find HCF (Highest Common Factor) in Python
 
 This program allows the user to calculate the **Highest Common Factor (HCF)** of two integers using a simple algorithm.
