@@ -87,15 +87,3 @@ harshad_number/
 - Explore **Harshad numbers in other bases** (e.g., binary, hexadecimal).
 
 ---
-
-Happy Coding! 🚀
-
-```
-
----
-
-This program checks if a number is a Harshad number by:
-1. Calculating the sum of its digits using Python's built-in `sum()` function and `str()` conversion.
-2. Checking if the number is divisible by the sum of its digits using the modulus operator (`%`).
-
-Let me know if you need further modifications or explanations!
