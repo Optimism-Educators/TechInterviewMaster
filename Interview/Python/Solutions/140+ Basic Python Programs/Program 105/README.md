@@ -1,9 +1,4 @@
-# Program105
-Sure! Here's a sample `README.md` file content for **Program 105: Recursive Factorial Function**:
 
----
-
-```markdown
 # 📘 Program 105: Recursive Factorial Function
 
 ## 🧮 Description
@@ -67,12 +62,3 @@ print(factorial(0))  # ➞ 1
 - Input should be a non-negative integer.
 - Recursive approach can hit a recursion depth limit for very large numbers.
 
----
-
-## ✨ Author
-
-Program created for basic Python learning and practice.
-
-```
-
-Let me know if you'd like this README saved as a `.md` file or included in your repo structure!
