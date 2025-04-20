@@ -100,8 +100,3 @@ fibonacci_recursive/
 
 ---
 
-Happy Learning! 🔁📘🚀
-
-```
-
-Let me know if you'd like a version using **memoization**, **iterative approach**, or even a **graphical Fibonacci spiral visualization**!
