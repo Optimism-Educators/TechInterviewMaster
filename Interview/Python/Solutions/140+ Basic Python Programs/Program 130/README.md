@@ -1,7 +1,3 @@
-# Program130
-Here is the **README.md** file for **Program 130 – Remove Duplicates and Sort List**:
-
----
 
 ## 📘 Program 130 – Remove Duplicates and Sort List
 
@@ -101,7 +97,3 @@ For the input `[4, 4, 4, 4]`:
 
 - **Input**: `[3, 3, 3, 2, 1]`
   - **Output**: `[1, 2, 3]`
-
----
-
-Let me know if you need any further modifications!
