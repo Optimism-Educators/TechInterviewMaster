@@ -1,9 +1,4 @@
-# Program104
-Sure! Here's **Program 104** in your preferred format:
 
----
-
-```markdown
 # 🟩 Program 104: Destructuring Assignment in Python
 
 This Python program demonstrates how to **unpack** elements from a list into variables using **destructuring assignment**.
@@ -68,7 +63,3 @@ Last: 6
 ```
 
 ---
-
-✅ Python's ability to unpack with `*` (starred expression) makes it super simple to split lists into sections in one line.
-
-```
