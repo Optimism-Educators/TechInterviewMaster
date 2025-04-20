@@ -1,7 +1,3 @@
-# Program125
-Here is the **README.md** file for **Program 125 – Isogram Checker**:
-
----
 
 ## 📘 Program 125 – Isogram Checker
 
@@ -91,6 +87,4 @@ For the input `"PasSword"`, the function follows these steps:
 - **Input**: `"Consecutive"`
   - **Output**: `False`
 
----
 
-Let me know if you need further changes or additions!
