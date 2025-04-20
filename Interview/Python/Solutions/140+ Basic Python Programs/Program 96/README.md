@@ -74,7 +74,3 @@ print(binary(10))  # Output: "1010"
 - The binary representation is returned as a string.
 
 ---
-
-Let me know if you'd like any further adjustments! ✨
-
-```
