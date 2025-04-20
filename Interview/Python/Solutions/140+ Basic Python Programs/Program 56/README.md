@@ -1,9 +1,4 @@
-# Program56
-Absolutely! Here's how you'd write **Program 56** in the same consistent style:
 
----
-
-```markdown
 # 📝 Program 56: Print Odd Numbers in a List (Python)
 
 This Python program filters and prints all the **odd numbers** from a list entered by the user.
@@ -68,11 +63,3 @@ odd_numbers_in_list/
 - Add input **validation** to reject non-integer values.
 
 ---
-
-Happy Coding! 💻✨
-
-```
-
----
-
-Would you like me to continue with Program 57 in the same format?
