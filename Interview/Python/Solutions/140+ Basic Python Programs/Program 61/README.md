@@ -60,11 +60,3 @@ String after removal: pinepple
 - Make sure the index `i` is valid (i.e., not less than 0 and less than the length of the string).
 
 ---
-
-✂️ This is a handy method when manipulating strings during text processing or data cleaning.
-
-```
-
----
-
-Let me know if you want **Program 62** next!
