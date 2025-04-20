@@ -1,9 +1,4 @@
-# Program25
-Here’s a polished and educational `README.md` file for **Program 25 – Find ASCII Value of a Character in Python**:
 
----
-
-```markdown
 # 🔤 Program 25: Find ASCII Value of a Character (Python)
 
 This Python program takes a **single character** as input and returns its **ASCII value** using the built-in `ord()` function.
