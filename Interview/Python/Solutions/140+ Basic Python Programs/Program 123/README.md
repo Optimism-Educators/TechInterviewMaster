@@ -1,7 +1,3 @@
-# Program123
-Here is the **README.md** file for **Program 123 – Simon Says List Shift**:
-
----
 
 ## 📘 Program 123 – Simon Says List Shift
 
@@ -72,7 +68,3 @@ print(result)  # Output: True
   
 - **Edge Case Handling**:
   - The 0-indexed element in `lst2` and the n-1 indexed element in `lst1` are not checked as per the problem's instructions.
-
----
-
-Let me know if you need further changes or additions!
