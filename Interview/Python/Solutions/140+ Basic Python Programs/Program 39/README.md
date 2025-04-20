@@ -1,9 +1,4 @@
-# Program39
-Absolutely! Here's a clean, professional, and beginner-friendly explanation and code for:
 
----
-
-```markdown
 # 🔄 Program 39: Transpose a Matrix in Python
 
 This Python program transposes a given matrix. Transposing a matrix involves flipping it over its diagonal, turning rows into columns and vice versa.
