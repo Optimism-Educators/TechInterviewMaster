@@ -1,9 +1,4 @@
-# Program45
-Here's the explanation and code for **Program 45: Check if the Given Number is a Happy Number**:
 
----
-
-```markdown
 # 📝 Program 45: Check if the Given Number is a Happy Number (Python)
 
 This Python program checks whether a given number is a **Happy Number**. A **Happy Number** is a number that, when you repeatedly replace it with the sum of the squares of its digits, eventually reaches 1. If it never reaches 1 and instead loops endlessly, the number is not a Happy Number.
