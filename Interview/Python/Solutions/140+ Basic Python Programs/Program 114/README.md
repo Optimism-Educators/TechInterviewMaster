@@ -1,7 +1,3 @@
-# Program114
-Here's the README file for **Program 114 – Cone Volume Calculator**:
-
----
 
 ## 📘 Program 114 - Cone Volume Calculator
 
@@ -74,7 +70,3 @@ print(cone_volume(18, 0))   # ➞ 0.0
 - The `math` module is used to access an accurate value of π (`math.pi`).
 - If the radius is 0, the volume is also 0.
 - You can change the precision by adjusting the `round()` function.
-
----
-
-Let me know if you'd like this bundled into a `.ipynb`, Markdown file, or included in your project!
