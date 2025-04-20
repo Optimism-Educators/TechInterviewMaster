@@ -1,7 +1,3 @@
-# Program117
-Here's the **README.md** file for **Program 117 – Update List with Next in Line**:
-
----
 
 ## 📘 Program 117 – Update List with Next in Line
 
@@ -56,7 +52,3 @@ def next_in_line(lst, num):
 1. Provide a list of values and a number you want to add.
 2. Call the `next_in_line()` function with those arguments.
 3. Receive the updated list (or an error message if the list is empty).
-
----
-
-Let me know if you want this in `.md` format or bundled with previous programs!
