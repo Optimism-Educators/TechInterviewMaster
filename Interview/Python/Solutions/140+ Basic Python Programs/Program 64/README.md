@@ -1,9 +1,4 @@
-# Program64
-Here is **Program 64** in the requested format:
 
----
-
-```markdown
 # 📝 Program 64: Find Uncommon Words from Two Strings (Python)
 
 This Python program finds the **uncommon words** between two strings, meaning it identifies words that are present in **only one of the two strings**.
