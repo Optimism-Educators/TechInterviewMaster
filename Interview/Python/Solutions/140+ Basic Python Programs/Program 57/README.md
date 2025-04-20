@@ -70,11 +70,3 @@ remove_empty_lists/
 - Take **user input dynamically** and convert it into a list.
 
 ---
-
-Happy Pythoning! 🐍🚀
-
-```
-
----
-
-Would you like **Program 58** next in the same style?
