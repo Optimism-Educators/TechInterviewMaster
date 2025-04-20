@@ -1,9 +1,4 @@
-# Program72
-Here is **Program 72** in the requested format:
 
----
-
-```markdown
 # 📝 Program 72: Check Order of Characters in String Using OrderedDict (Python)
 
 This Python program demonstrates how to check the order of characters in a string using the `OrderedDict()` class. By leveraging `OrderedDict`, we can preserve the order of the characters and compare their positions.
@@ -62,11 +57,3 @@ OrderedDict with characters: OrderedDict([('p', None), ('r', None), ('o', None),
 This program is helpful when you want to keep track of the order of characters in a string while removing any duplicates. It can be useful for checking patterns or ensuring character sequences in data processing tasks.
 
 ---
-
-Let me know if you need any further modifications or explanations! 😊
-
-```
-
----
-
-I hope this is what you were looking for! Feel free to ask if you need anything else.
