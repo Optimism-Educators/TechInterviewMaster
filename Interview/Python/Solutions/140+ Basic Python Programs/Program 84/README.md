@@ -74,7 +74,3 @@ You Love Football
 - You can expand this logic by adding more elements to any of the lists.
 
 ---
-
-Let me know when you’re ready for **Program 85** or want to make this interactive with user input!
-
-```
