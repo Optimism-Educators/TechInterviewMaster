@@ -1,9 +1,4 @@
-# Program66
-Here is **Program 66** in the requested format:
 
----
-
-```markdown
 # 📝 Program 66: Check if a String Contains Any Special Character (Python)
 
 This Python program checks if a given string contains any **special characters**.
