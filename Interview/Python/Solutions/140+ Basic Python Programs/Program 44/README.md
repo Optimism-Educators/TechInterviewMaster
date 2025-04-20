@@ -1,9 +1,4 @@
-# Program44
-Here's a structured explanation and code for **Program 44: Print All Disarium Numbers Between 1 and 100**:
 
----
-
-```markdown
 # 📝 Program 44: Print All Disarium Numbers Between 1 and 100 (Python)
 
 This Python program prints all **Disarium numbers** between 1 and 100. A **Disarium number** is a number where the sum of its digits, each raised to the power of its respective position, equals the number itself.
@@ -87,9 +82,3 @@ disarium_numbers/
 - Modify the program to display the powers for each digit that contributes to the Disarium number.
 
 ---
-
-Happy Coding! 🚀
-
-```
-
-This program prints all the Disarium numbers between 1 and 100 by checking each number in the range using the `is_disarium_number()` function. Let me know if you need further explanations or enhancements!
