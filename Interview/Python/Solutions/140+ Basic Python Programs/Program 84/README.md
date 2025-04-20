@@ -1,9 +1,4 @@
-# Program84
-Of course! Here's **Program 84** in your preferred format:
 
----
-
-```markdown
 # 🗣️ Program 84: Generate All Possible Sentences (Subject + Verb + Object)
 
 This Python program generates all possible sentences by combining subjects, verbs, and objects from given lists.
