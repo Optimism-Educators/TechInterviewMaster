@@ -1,9 +1,4 @@
-# Program67
-Here is **Program 67** in the requested format:
 
----
-
-```markdown
 # 📝 Program 67: Extract Unique Dictionary Values (Python)
 
 This Python program extracts unique values from a dictionary.
@@ -65,11 +60,3 @@ Unique values in the dictionary: {10, 20, 30}
 3. **Returning Unique Values**: The function returns a set containing only the unique values from the dictionary.
 
 ---
-
-📘 This program is useful for finding distinct values from dictionaries, which can be helpful in data cleaning or processing tasks.
-
-```
-
----
-
-Let me know if you'd like any further clarification or adjustments! 😊
