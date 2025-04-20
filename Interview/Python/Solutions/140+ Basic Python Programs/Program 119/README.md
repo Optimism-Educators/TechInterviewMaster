@@ -1,7 +1,3 @@
-# Program119
-Here's the **README.md** file for **Program 119 – Alphabetical Order of Letters**:
-
----
 
 ## 📘 Program 119 – Alphabetical Order of Letters
 
@@ -51,6 +47,3 @@ def alphabet_soup(s):
 2. The function sorts the characters of the string in alphabetical order.
 3. The function returns the sorted string.
 
----
-
-Let me know if you'd like this in `.md` format or included with the previous files!
