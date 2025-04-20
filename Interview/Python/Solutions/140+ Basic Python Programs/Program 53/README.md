@@ -78,13 +78,3 @@ find_second_largest_number/
 - Try different edge cases, like a **list with only two elements** or a **list with more than two large numbers**.
 
 ---
-
-Happy Coding! 🚀
-
-```
-
----
-
-This program ensures that the second largest number is identified by first removing duplicates (using `set()`) and then sorting the list. It also handles edge cases like lists with fewer than two elements or lists where all numbers are the same.
-
-Let me know if you need more clarification or any changes!
