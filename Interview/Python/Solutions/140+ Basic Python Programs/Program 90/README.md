@@ -1,9 +1,4 @@
-# Program90
-Sure! Here's **Program 90** written in the same detailed and structured format you prefer:
 
----
-
-```markdown
 # 📧 Program 90: Extract Username from Email Address
 
 This Python program extracts and prints the **username** from a given email address in the format `username@companyname.com`. The email address is assumed to be in the form `username@companyname.com (mailto:username@companyname.com)`.
@@ -63,7 +58,3 @@ john
 - The solution assumes the email format is consistent and contains only letters for both the username and company name.
 
 ---
-
-Let me know if you'd like any further adjustments! ✨
-
-```
