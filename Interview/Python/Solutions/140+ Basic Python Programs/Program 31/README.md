@@ -1,9 +1,3 @@
-# Program31
-Absolutely! Here's the complete lesson-style breakdown and Python program for:
-
----
-
-```markdown
 # 📘 Program 31: Cube Sum of First N Natural Numbers (Python)
 
 This Python program calculates the **sum of cubes** of the first **n natural numbers**.
