@@ -1,9 +1,4 @@
-# Program71
-Here is **Program 71** in the requested format:
 
----
-
-```markdown
 # 📝 Program 71: Insertion at the Beginning in OrderedDict (Python)
 
 This Python program demonstrates how to insert an item at the beginning of an `OrderedDict`. An `OrderedDict` is a dictionary subclass that maintains the order of elements based on their insertion order.
@@ -59,11 +54,3 @@ OrderedDict after insertion at the beginning: OrderedDict([('z', 0), ('a', 1), (
 3. **Result**: The result is an `OrderedDict` with the new item inserted at the beginning, while the other items maintain their original order.
 
 ---
-
-📘 This program is useful when working with ordered data structures in Python, especially when you need to manipulate the order of items in a dictionary.
-
-```
-
----
-
-Let me know if you need further clarification or adjustments! 😊
