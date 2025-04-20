@@ -1,9 +1,4 @@
-# Program98
-Here’s **Program 98** written in the format you requested:
 
----
-
-```markdown
 # 🟩 Program 98: Check if Inequality Expression is Correct
 
 This Python program checks whether a given inequality expression is correct. It returns `True` if the expression is valid, and `False` otherwise.
