@@ -79,16 +79,3 @@ find_n_largest_elements/
 - Experiment with different values of **N** and see how the program handles edge cases, such as **N greater than the length of the list**.
 
 ---
-
-Happy Coding! 🚀
-
-```
-
----
-
-### Key Features:
-- **`heapq.nlargest()`** is used here because it efficiently finds the N largest elements in the list.
-- It handles cases where N is greater than the length of the list and ensures the user gets an appropriate message.
-- It includes error checking for invalid input values for N.
-
-Let me know if you need further adjustments!
