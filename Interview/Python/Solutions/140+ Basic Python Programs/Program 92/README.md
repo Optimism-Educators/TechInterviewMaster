@@ -1,9 +1,4 @@
-# Program92
-Here’s **Program 92** written in the format you prefer:
 
----
-
-```markdown
 # 🟩 Program 92: Stuttering a Word
 
 This Python program defines a function `stutter()` that takes a word as input and simulates the stuttering effect of someone struggling to read the word. The first two letters of the word are repeated twice, followed by an ellipsis ("...") and a space. The word is then pronounced with a question mark ("?").
