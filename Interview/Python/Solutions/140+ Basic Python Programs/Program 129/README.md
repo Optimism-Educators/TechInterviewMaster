@@ -1,7 +1,3 @@
-# Program129
-Here is the **README.md** file for **Program 129 – Square Digits of a Number**:
-
----
 
 ## 📘 Program 129 – Square Digits of a Number
 
@@ -99,7 +95,3 @@ For the input `2483`, the function:
   
 - **Input**: `3212`
   - **Output**: `9414`
-
----
-
-Let me know if you need any further modifications!
