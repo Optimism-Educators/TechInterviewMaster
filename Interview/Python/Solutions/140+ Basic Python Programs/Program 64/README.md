@@ -69,11 +69,3 @@ Uncommon words: {'grape', 'mango', 'apple', 'orange'}
 2. **Set operations**: We convert the lists of words into sets and use `symmetric_difference()` to find words that are in either string but not both.
 
 ---
-
-📘 This is useful for text comparison and finding unique terms in datasets or documents.
-
-```
-
----
-
-Let me know if you'd like the next program or any changes! 😊
