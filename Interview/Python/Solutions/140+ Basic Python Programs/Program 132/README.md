@@ -1,7 +1,3 @@
-# Program132
-Here is the **README.md** file for **Program 132 – Amplify Numbers**:
-
----
 
 ## 📘 Program 132 – Amplify Numbers
 
@@ -98,7 +94,3 @@ For the input `25`:
   
 - **Input**: `25`
   - **Output**: `[1, 2, 3, 40, 5, 6, 7, 80, 9, 10, 11, 120, 13, 14, 15, 160, 17, 18, 19, 200, 21, 22, 23, 240, 25]`
-
----
-
-Let me know if you need any further modifications!
