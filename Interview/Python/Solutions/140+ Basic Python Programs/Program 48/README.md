@@ -82,13 +82,3 @@ pronic_numbers/
 - Implement the program to **identify pronic numbers** for any given upper limit from user input.
 
 ---
-
-Happy Coding! 🚀
-
-```
-
----
-
-This Python program calculates pronic numbers up to a specified limit (in this case, 100), using the formula \( P_n = n \times (n + 1) \) and prints them out.
-
-Let me know if you need any further modifications or explanations!
