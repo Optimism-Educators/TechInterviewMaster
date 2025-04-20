@@ -13,6 +13,7 @@ This Python script calculates and returns the sum of all numeric values in a dic
 
 1. Place your dictionary in the `sample_dict` variable in `sum_dict_values.py`.
 2. Run the script:
+
    ```
    python sum_dict_values.py
    ```
@@ -22,7 +23,9 @@ This Python script calculates and returns the sum of all numeric values in a dic
 ```python
 sample_dict = {'a': 100, 'b': 200, 'c': 300}
 ```
+
 **Output:**
+
 ```
 Sum of all items: 600
 ```
