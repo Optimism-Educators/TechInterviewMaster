@@ -94,7 +94,3 @@ For the input `{"likes": 2, "dislikes": 3, "followers": 10}`:
 
 - **Input**: `{"likes": 2, "dislikes": 3, "followers": 10}`
   - **Output**: `[("dislikes", 3), ("followers", 10), ("likes", 2)]`
-
----
-
-Let me know if you need any further modifications or details!
