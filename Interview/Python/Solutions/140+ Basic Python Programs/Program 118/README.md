@@ -53,6 +53,3 @@ def get_budgets(lst):
 2. Call the `get_budgets()` function with the list as the argument.
 3. The function returns the sum of all the budgets.
 
----
-
-Let me know if you'd like this in `.md` format or included with previous files!
