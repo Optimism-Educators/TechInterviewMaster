@@ -73,7 +73,3 @@ Element 11 found at index 5.
 - Binary search significantly reduces the time complexity compared to linear search for large datasets.
 
 ---
-
-Need Program 87? Let's go! 🚀
-
-```
