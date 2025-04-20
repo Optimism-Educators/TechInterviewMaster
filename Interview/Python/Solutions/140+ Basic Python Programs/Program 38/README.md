@@ -96,9 +96,3 @@ matrix_multiplication/
 - Validate dimensions and show user-friendly error messages.
 
 ---
-
-Happy Learning! 🧠✨
-
-```
-
-Let me know if you'd like a NumPy version or a user input-based version too!
