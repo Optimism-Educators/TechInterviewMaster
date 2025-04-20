@@ -72,7 +72,3 @@ Female
 - The `getGender()` method is **overridden** in the child classes to provide specific behavior.
 
 ---
-
-Let me know when you’re ready for **Program 84** or want variations like using `@abstractmethod` for stricter design!
-
-```
