@@ -1,9 +1,4 @@
-# Program102
-Sure! Here's **Program 102** in the same format as your previous requests:
 
----
-
-```markdown
 # 🟩 Program 102: Filter Strings from a List
 
 This Python program filters out all string elements from a list containing both integers and strings.
@@ -70,7 +65,3 @@ print(filter_list([1, 2, "aasf", "1", "123", 123]))  # ➞ [1, 2, 123]
 - Strings `"aasf"`, `"1"`, `"123"` are removed → `[1, 2, 123]`
 
 ---
-
-✅ This is a clean and efficient way to filter data types from a mixed list.
-
-```
