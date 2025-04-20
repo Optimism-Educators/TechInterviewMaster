@@ -1,45 +1,50 @@
-# Program 21: Find the Sum of Natural Numbers
 
-## 🧮 Problem Statement
+# 📘 Program 21: Find the Sum of Natural Numbers
 
-Write a Python program to **find the sum of natural numbers** up to a given number `n`.
+This Python program calculates the **sum of the first `n` natural numbers**, where `n` is a positive integer input by the user.
 
 ---
 
-## 🔍 What Are Natural Numbers?
+## 📌 Problem Statement
 
-Natural numbers are a set of positive integers that are used to **count and order objects**.  
-They start from **1** and go on infinitely:
+**Write a Python program to find the sum of natural numbers up to a given number `n`.**
 
-\[
-\mathbb{N} = \{1, 2, 3, 4, 5, 6, 7, 8, \ldots\}
-\]
+---
+
+## 🔍 What are Natural Numbers?
+
+Natural numbers are **positive integers** that are used for counting.  
+They are the basic numbers starting from **1** and go on indefinitely.
+
+### ℕ = {1, 2, 3, 4, 5, 6, ...}
 
 ---
 
 ## 🧠 Concept
 
-To find the sum of the first `n` natural numbers, we can use:
-- **Loop-based approach** – Iteratively add numbers from 1 to `n`
-- **Formula-based approach** – Use the formula:
+To calculate the sum of the first `n` natural numbers, we have two options:
 
+### 1️⃣ Loop-based Approach:
+Add numbers from 1 to `n` using a loop.
+
+### 2️⃣ Formula-based Approach:
+Use the formula:
 \[
-\text{Sum} = \frac{n(n+1)}{2}
+\text{Sum} = \frac{n(n + 1)}{2}
 \]
 
 ---
 
-## 🧑‍💻 Python Code (Using Loop)
+## ✅ Python Code (Using Loop)
 
 ```python
-# Python program to find the sum of natural numbers
+# Python program to find the sum of natural numbers using a loop
 
-# Input from user
+# Take input from user
 num = int(input("Enter a positive number: "))
 
-# Check if the number is positive
 if num < 1:
-    print("Please enter a number greater than 0.")
+    print("Please enter a positive integer.")
 else:
     total = 0
     for i in range(1, num + 1):
@@ -49,16 +54,16 @@ else:
 
 ---
 
-## 🧑‍💻 Python Code (Using Formula)
+## ✅ Python Code (Using Formula)
 
 ```python
-# Python program to find the sum using formula
+# Python program to find the sum of natural numbers using a formula
 
-# Input from user
+# Take input from user
 num = int(input("Enter a positive number: "))
 
 if num < 1:
-    print("Please enter a number greater than 0.")
+    print("Please enter a positive integer.")
 else:
     total = num * (num + 1) // 2
     print(f"The sum of the first {num} natural numbers is {total}")
@@ -66,25 +71,29 @@ else:
 
 ---
 
-## ✅ Sample Output
+## ▶️ Sample Output
 
-```
+```bash
 Enter a positive number: 5
 The sum of the first 5 natural numbers is 15
 ```
 
 ---
 
-## 🧠 Tip
+## 📁 Suggested Folder Structure
 
-Using the formula is faster and more efficient, especially for large values of `n`.
+```
+sum_natural_numbers/
+├── sum_using_loop.py
+├── sum_using_formula.py
+└── README.md
+```
 
 ---
 
-## 📘 Related Topics
+## 💡 Try It Yourself
 
-- Loops in Python
-- Arithmetic Progressions
-- Mathematical formulae in programming
+- What happens when `n = 1`?
+- Can you write a function that takes any list of numbers and returns their sum?
 
 ---
