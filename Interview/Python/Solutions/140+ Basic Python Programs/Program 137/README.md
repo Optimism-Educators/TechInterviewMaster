@@ -1,7 +1,3 @@
-# Program137
-Here is the **README.md** file for **Program 137 – Count Equal Integers**:
-
----
 
 ## 📘 Program 137 – Count Equal Integers
 
@@ -104,7 +100,3 @@ For the input `(3, 4, 1)`:
 
 - **Input**: `(3, 4, 1)`
   - **Output**: `0`
-
----
-
-Let me know if you need any further modifications or details!
