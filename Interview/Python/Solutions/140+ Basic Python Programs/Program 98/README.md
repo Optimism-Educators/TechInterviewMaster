@@ -69,8 +69,3 @@ True
 - The input is assumed to be a valid mathematical string containing comparison operators like `<` and `>`.
 - Be cautious when using `eval()` in a real-world application, as it can execute arbitrary code and pose a security risk.
 
----
-
-Let me know if you'd like any further adjustments! ✨
-
-```
