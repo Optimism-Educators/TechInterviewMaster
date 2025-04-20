@@ -1,9 +1,4 @@
-# Program87
-Absolutely! Here's **Program 87** formatted just the way you like:
 
----
-
-```markdown
 # 🔢 Program 87: Generator to Print Numbers Divisible by 5 and 7
 
 This Python program uses a **generator** to print all numbers between **0 and n** that are divisible by both **5 and 7** (i.e., divisible by 35), in **comma-separated** format.
@@ -65,7 +60,3 @@ Enter the value of n: 100
 - `yield` is used to produce values one by one, making the function more efficient.
 
 ---
-
-Need Program 88? Let's do it! ⚙️
-
-```
