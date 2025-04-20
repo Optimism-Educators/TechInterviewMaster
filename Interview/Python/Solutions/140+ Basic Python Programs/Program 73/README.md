@@ -1,9 +1,4 @@
-# Program73
-Here is **Program 73** in the requested format:
 
----
-
-```markdown
 # 📝 Program 73: Sort Python Dictionaries by Key or Value
 
 This Python program demonstrates how to sort a dictionary by either its keys or its values.
@@ -84,11 +79,3 @@ Sorting dictionaries is useful in many applications, such as:
 - Presenting data in a structured format for better readability.
 
 ---
-
-Let me know if you'd like to explore other sorting techniques or have any further questions! 😊
-
-```
-
----
-
-Feel free to ask if you need any adjustments!
