@@ -1,9 +1,4 @@
-# Program77
-Here is **Program 77** in the requested format:
 
----
-
-```markdown
 # 📝 Program 77: Remove Duplicates and Sort Words Alphanumerically
 
 This Python program accepts a sequence of whitespace-separated words as input and then prints the words after removing all duplicates and sorting them alphanumerically.
@@ -95,11 +90,3 @@ again and hello makes perfect practice world
 This program can be useful for cleaning up and organizing a list of words, such as for text processing, data analysis, or generating unique and sorted keyword lists.
 
 ---
-
-Let me know if you'd like further clarifications or modifications! 😊
-
-```
-
----
-
-Let me know if you need any more adjustments or additional programs!
