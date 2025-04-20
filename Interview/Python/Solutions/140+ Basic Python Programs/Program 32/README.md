@@ -99,8 +99,3 @@ sum_of_array/
 
 ---
 
-Happy Learning! 🐍💡
-
-```
-
-Would you like me to provide the **NumPy version** of this too?
