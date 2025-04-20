@@ -16,7 +16,7 @@
 # The program is written in Python and uses a simple recursive function to calculate the factorial.
 
 def factorial(n):
-     # Base case: if n is 0, return 1
+     # Base case: if n is 0, return 1x
      if n == 0:
           return 1
      # Recursive case: n! = n * (n-1)!
@@ -43,6 +43,7 @@ else:
 # For any other positive integer n, the function returns n multiplied by the factorial of (n-1).
 # The program handles invalid input by checking if the input is a non-negative integer.
 # If the input is invalid, an error message is displayed.
+# The program is user-friendly and provides clear instructions for input.
 # The program is written in Python and uses a simple recursive function to calculate the factorial.
 # The program is designed to be user-friendly and provides clear instructions for input.
 # The program is also well-documented with comments to explain the code.
