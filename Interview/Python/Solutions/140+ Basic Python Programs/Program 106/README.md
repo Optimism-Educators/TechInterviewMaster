@@ -1,7 +1,3 @@
-# Program106
-Sure! Here's a **README.md** content for **Program 106: `move_to_end` function** — structured to explain purpose, usage, examples, and more.
-
----
 
 ## 🧮 Program 106: Move All Elements of One Type to End of List
 
@@ -62,11 +58,3 @@ def move_to_end(lst, element):
 ```
 
 ---
-
-### 🧪 Test It Yourself
-
-Try modifying the list and element to see how it rearranges the elements!
-
----
-
-Let me know if you'd like this saved in a `.md` file or if you'd like to generate more README files like this for your other programs!
