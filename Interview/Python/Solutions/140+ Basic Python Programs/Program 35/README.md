@@ -90,10 +90,3 @@ array_split_rearrange/
 - Create a function that supports **rotation direction**.
 - Extend to **2D matrix** splitting.
 
----
-
-Happy Coding! 🔧📦
-
-```
-
-Let me know if you'd like this and other programs bundled into a printable format or GitHub repo!
