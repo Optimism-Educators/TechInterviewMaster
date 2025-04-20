@@ -1,7 +1,3 @@
-# Program139
-Here is the **README.md** file for **Program 139 – Create a Dictionary with Upper and Lower Case Letters**:
-
----
 
 ## 📘 Program 139 – Create a Dictionary with Upper and Lower Case Letters
 
@@ -88,7 +84,3 @@ For the input `["a", "v", "y", "z"]`:
 
 - **Input**: `["a", "v", "y", "z"]`
   - **Output**: `{"a": "A", "v": "V", "y": "Y", "z": "Z"}`
-
----
-
-Let me know if you need any further modifications or details!
