@@ -1,7 +1,3 @@
-# Program134
-Here is the **README.md** file for **Program 134 – Circle Class Constructor**:
-
----
 
 ## 📘 Program 134 – Circle Class Constructor
 
@@ -142,7 +138,3 @@ For the input `Circle(4.44)`:
   - **Output**:
     - `Area: 62`
     - `Perimeter: 28`
-
----
-
-Let me know if you need any further modifications!
