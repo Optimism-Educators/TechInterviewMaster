@@ -1,9 +1,4 @@
-# Program41
-Here’s a structured explanation and code for **Program 41: Remove Punctuation from a String**:
 
----
-
-```markdown
 # 📝 Program 41: Remove Punctuation From a String (Python)
 
 This Python program removes **punctuation marks** from a given string.
