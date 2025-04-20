@@ -66,11 +66,3 @@ The string contains special characters.
 2. **Checking the string**: The `re.search()` function searches the string for any match to the pattern. If a match is found, the string contains a special character.
 
 ---
-
-📘 This program is useful for validating input strings or ensuring strings contain only certain types of characters.
-
-```
-
----
-
-Let me know if you need more examples or any adjustments! 😊
