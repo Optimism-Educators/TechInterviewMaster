@@ -1,9 +1,4 @@
-# Program51
-Here's the explanation and code for **Program 51: Find the Smallest Number in a List**:
 
----
-
-```markdown
 # 📝 Program 51: Find the Smallest Number in a List (Python)
 
 This Python program finds the smallest number in a given list.
