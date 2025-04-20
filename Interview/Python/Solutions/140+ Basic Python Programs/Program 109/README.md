@@ -1,8 +1,4 @@
-Here is the `README.md` file for **Program 109: Calculate the Thickness of a Paper After Folding**:
 
----
-
-```markdown
 # 📘 Program 109: Calculate the Thickness of a Paper After Folding
 
 ## 🧮 Description
@@ -63,12 +59,3 @@ print(num_layers(21))   # ➞ "1048.576m"
 
 ---
 
-## ✨ Author
-
-Program created for basic Python learning and practice.
-
-```
-
----
-
-Let me know if you'd like to save this as a `.md` file or if you'd like to include it in your project!
