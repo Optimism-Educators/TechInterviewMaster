@@ -1,9 +1,4 @@
-# Program32
-Absolutely! Here's the well-structured, lesson-style breakdown for:
 
----
-
-```markdown
 # 🧮 Program 32: Python Program to Find the Sum of an Array (List)
 
 This program demonstrates how to calculate the **sum of elements in an array (list)** using Python.
