@@ -10,7 +10,7 @@
   <a href="https://wakatime.com/badge/user/f1f7c244-1d72-4129-94b7-6b4d1972b55a/project/c0a0249d-de59-4cbe-aa51-68012ee6f377"><img height="25px"src="https://wakatime.com/badge/user/f1f7c244-1d72-4129-94b7-6b4d1972b55a/project/c0a0249d-de59-4cbe-aa51-68012ee6f377.svg" alt="wakatime"></a>
 </div>
 
-https://wakatime.com/@Antim_Pal/projects/slrgvbqzfr
+<https://wakatime.com/@Antim_Pal/projects/slrgvbqzfr>
 
 # TechInterviewMaster
 
@@ -69,10 +69,10 @@ We encourage you to contribute to TechInterviewMaster by adding new questions, r
 ## Contributing
 
 We welcome contributions! Please read the [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) and open an issue or pull request. All types of contributions are appreciated, from fixing typos to adding new questions or solutions.
+
 ## File Structure
 
-
-## Support 
+## Support
 
 <div align="center">
   <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="200" alt="Support Animation">
@@ -88,4 +88,5 @@ We welcome contributions! Please read the [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT
 ## Let's build and learn together! 🌟
 
 <!--START_SECTION:waka-->
+<!-- This section will be automatically updated with WakaTime stats -->
 <!--END_SECTION:waka-->
