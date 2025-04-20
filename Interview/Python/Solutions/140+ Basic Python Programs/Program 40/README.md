@@ -1,9 +1,4 @@
-# Program40
-Here's a well-structured explanation and code for:
 
----
-
-```markdown
 # 📝 Program 40: Sort Words in Alphabetic Order (Python)
 
 This Python program sorts a list of words in **alphabetical order**.
