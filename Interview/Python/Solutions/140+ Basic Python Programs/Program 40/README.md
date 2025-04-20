@@ -74,9 +74,3 @@ alphabetical_sort/
 - **Sort words case-insensitively** by using `sorted(words, key=str.lower)`.
 
 ---
-
-Happy Coding! 🚀
-
-```
-
-This program can be a great start for understanding string manipulations and sorting in Python. Let me know if you'd like further explanations or additional versions of the code!
