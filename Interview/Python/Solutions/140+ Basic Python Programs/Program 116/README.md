@@ -1,7 +1,3 @@
-# Program116
-Here's a **README.md** file for **Program 116 – Missing Number Finder**:
-
----
 
 ## 📘 Program 116 – Missing Number Finder
 
@@ -44,7 +40,3 @@ def missing_num(lst):
 1. Define a list of 9 unique integers from 1 to 10.
 2. Call the `missing_num()` function with the list as an argument.
 3. Get the missing number as the output.
-
----
-
-Let me know if you'd like this exported to a `.md` file or added to a GitHub repo layout!
