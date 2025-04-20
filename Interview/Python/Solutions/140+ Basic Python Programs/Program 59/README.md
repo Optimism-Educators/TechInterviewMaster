@@ -1,9 +1,4 @@
-# Program59
-Absolutely! Here's **Program 59** in the same style and format:
 
----
-
-```markdown
 # 📝 Program 59: Count Occurrences of an Element in a List (Python)
 
 This Python program demonstrates how to **count the number of times a specific element appears in a list**.
