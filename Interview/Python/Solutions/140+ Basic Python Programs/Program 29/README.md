@@ -1,9 +1,4 @@
-# Program29
-Certainly! Here's a detailed and structured explanation for **Program 29 – Calculating Body Mass Index (BMI) in Python**:
 
----
-
-```markdown
 # 🏋️‍♂️ Program 29: Calculate Body Mass Index (BMI) (Python)
 
 This Python program calculates an individual's **Body Mass Index (BMI)** based on their weight and height.
@@ -118,9 +113,3 @@ bmi_calculator/
 - Provide health tips based on BMI results (e.g., exercise or diet recommendations).
 
 ---
-
-Happy Coding! 🧠💡💪
-
-```
-
-Let me know if you'd like further enhancements or additional features for the program!
