@@ -1,9 +1,4 @@
-# Program43
-Here's a structured explanation and code for **Program 43: Check if a Number is a Disarium Number**:
 
----
-
-```markdown
 # 📝 Program 43: Check if the Given Number is a Disarium Number (Python)
 
 This Python program checks if a given number is a **Disarium Number**. A **Disarium number** is a number where the sum of its digits, each raised to the power of its respective position, equals the number itself.
@@ -90,9 +85,3 @@ disarium_number/
 - Implement a version that checks if a range of numbers contains Disarium numbers.
 
 ---
-
-Happy Coding! 🚀
-
-```
-
-This program checks whether the entered number is a Disarium number by calculating the sum of each digit raised to the power of its position and comparing it with the original number. Let me know if you'd like more details or examples!
