@@ -1,9 +1,4 @@
-# Program94
-Here’s **Program 94** written in the format you requested:
 
----
-
-```markdown
 # 🟩 Program 94: Curzon Number Check
 
 This Python program defines a function `is_curzon()` that checks whether a given integer is a **Curzon number**.
