@@ -1,7 +1,3 @@
-# Program121
-Here’s the **README.md** file for **Program 121 – Return Only Integers**:
-
----
 
 ## 📘 Program 121 – Return Only Integers
 
@@ -65,7 +61,3 @@ print(result)  # Output: [9, 2, 16]
 
 - **isinstance()** is used to check whether each element in the list is an integer.
 - The list comprehension filters out non-integer elements and returns only integers.
-
----
-
-Let me know if you need any other adjustments!
