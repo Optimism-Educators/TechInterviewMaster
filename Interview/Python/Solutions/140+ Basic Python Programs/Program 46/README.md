@@ -1,9 +1,4 @@
-# Program46
-Here's the explanation and code for **Program 46: Print All Happy Numbers Between 1 and 100**:
 
----
-
-```markdown
 # 📝 Program 46: Print All Happy Numbers Between 1 and 100 (Python)
 
 This Python program prints all **Happy Numbers** between 1 and 100. A **Happy Number** is a number that, when you repeatedly replace it with the sum of the squares of its digits, eventually reaches 1. If it never reaches 1 and instead loops endlessly, the number is not a Happy Number.
