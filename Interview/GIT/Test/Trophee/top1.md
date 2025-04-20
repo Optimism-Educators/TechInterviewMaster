@@ -20,7 +20,7 @@
 <!-- <img  height="200" src="https://github-contributor-stats.vercel.app/api?username=iamAntimPal&limit=5&theme=dark&combine_all_yearly_contributions=true"/>  -->
 
 </p>
-<a href="https://github.com/iamAntimPal/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs"></a>
+<a href="https://github.com/iamAntimPal/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=Antim_pal"></a>
 
 ## Top Repositories
  
