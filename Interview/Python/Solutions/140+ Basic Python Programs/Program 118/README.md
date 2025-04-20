@@ -1,7 +1,3 @@
-# Program118
-Here's the **README.md** file for **Program 118 – Sum of Budgets**:
-
----
 
 ## 📘 Program 118 – Sum of Budgets
 
