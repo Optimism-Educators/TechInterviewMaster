@@ -1,9 +1,4 @@
-# Program53
-Here’s the explanation and code for **Program 53: Find the Second Largest Number in a List**:
 
----
-
-```markdown
 # 📝 Program 53: Find the Second Largest Number in a List (Python)
 
 This Python program finds the second largest number in a given list.
