@@ -1,9 +1,4 @@
-# Program62
-Absolutely! Here's **Program 62** in your preferred format:
 
----
-
-```markdown
 # 📝 Program 62: Split and Join a String (Python)
 
 This Python program demonstrates how to **split a string into a list of words** and then **join them back** into a single string using a different separator.
@@ -58,11 +53,3 @@ String after joining with '-': Python-is-awesome
 - Very useful in formatting strings, processing user input, and preparing data for display or export.
 
 ---
-
-🔁 Splitting and joining are core string manipulation techniques in Python!
-
-```
-
----
-
-Let me know if you want **Program 63** or any edits!
