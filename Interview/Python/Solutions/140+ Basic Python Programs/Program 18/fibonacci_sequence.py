@@ -1,5 +1,6 @@
+# Author: Antim Pal
+# Date: 202-04-20
 # problem fabunacci sequence
-# Problem Statement:
 # Write a program to print the first N terms of the Fibonacci sequence.
 # Input Format:
 # Input consists of a single integer N.
@@ -10,8 +11,7 @@
 # Sample Output:
 # 0 1 1 2 3 5
 
-# Author: Antim Pal
-# Date: 202-04-20
+
 
 # Time Complexity: O(N)
 # Space Complexity: O(1)
