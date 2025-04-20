@@ -60,7 +60,3 @@ print(add_indexes([5, 4, 3, 2, 1]))  # ➞ [5, 5, 5, 5, 5]
 
 - This program uses `enumerate()` to access both the **index** and **value** of each element.
 - Clean and efficient solution using **list comprehension**.
-
----
-
-Let me know if you want a README version or want this compiled into a document or notebook!
