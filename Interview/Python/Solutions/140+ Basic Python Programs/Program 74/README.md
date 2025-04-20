@@ -1,9 +1,4 @@
-# Program74
-Here is **Program 74** in the requested format:
 
----
-
-```markdown
 # 📝 Program 74: Calculate and Print Value According to Formula
 
 This Python program calculates and prints the values based on the given formula. The program uses fixed values for `C` and `H`, and for the variable `D`, which is a sequence of numbers inputted by the user.
