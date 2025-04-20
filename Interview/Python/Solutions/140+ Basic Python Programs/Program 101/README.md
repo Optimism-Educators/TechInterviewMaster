@@ -90,7 +90,3 @@ print(hamming_distance("short", "longer"))
 ```
 
 ---
-
-Let me know if you'd like a version that automatically handles different string lengths or ignores case! ✅
-
-```
