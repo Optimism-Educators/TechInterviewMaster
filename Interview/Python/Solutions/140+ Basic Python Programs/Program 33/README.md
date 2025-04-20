@@ -1,9 +1,4 @@
-# Program33
-Of course! Here's a structured and lesson-style explanation for:
 
----
-
-```markdown
 # 🔍 Program 33: Python Program to Find the Largest Element in an Array (List)
 
 This program demonstrates how to find the **largest element** in an array (list) using Python.
