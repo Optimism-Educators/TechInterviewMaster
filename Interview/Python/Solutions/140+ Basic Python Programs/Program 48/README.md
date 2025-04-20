@@ -1,9 +1,4 @@
-# Program48
-Here's the explanation and code for **Program 48: Print all Pronic Numbers Between 1 and 100**:
 
----
-
-```markdown
 # 📝 Program 48: Print All Pronic Numbers Between 1 and 100 (Python)
 
 This Python program prints all **pronic numbers** (also known as oblong or rectangular numbers) between 1 and 100. A pronic number is the product of two consecutive integers, \(n\) and \(n + 1\). Mathematically, a pronic number is expressed as:
