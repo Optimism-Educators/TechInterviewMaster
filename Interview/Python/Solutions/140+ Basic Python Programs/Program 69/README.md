@@ -1,9 +1,4 @@
-# Program69
-Here is **Program 69** in the requested format:
 
----
-
-```markdown
 # 📝 Program 69: Merging Two Dictionaries (Python)
 
 This Python program demonstrates how to merge two dictionaries into one.
@@ -59,11 +54,3 @@ Merged Dictionary: {'a': 10, 'b': 20, 'c': 30, 'd': 40, 'e': 50}
 3. **Result**: The merged dictionary contains all key-value pairs from both dictionaries.
 
 ---
-
-📘 This program is useful when you need to combine data from two sources, such as merging configurations, settings, or any key-value pairs in a dictionary.
-
-```
-
----
-
-Let me know if you'd like further adjustments! 😊
