@@ -84,7 +84,3 @@ True
 - The result is `True` if the number is a Curzon number, and `False` otherwise.
 
 ---
-
-Let me know if you'd like any further adjustments! ✨
-
-```
