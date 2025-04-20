@@ -112,8 +112,3 @@ decimal_converter/
 
 ---
 
-Happy Learning! 💻🧠
-
-```
-
-Let me know if you'd like this turned into a project folder with files automatically generated!
