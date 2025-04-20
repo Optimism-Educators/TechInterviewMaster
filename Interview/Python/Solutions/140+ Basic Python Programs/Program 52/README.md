@@ -1,9 +1,4 @@
-# Program52
-Here’s the explanation and code for **Program 52: Find the Largest Number in a List**:
 
----
-
-```markdown
 # 📝 Program 52: Find the Largest Number in a List (Python)
 
 This Python program finds the largest number in a given list.
