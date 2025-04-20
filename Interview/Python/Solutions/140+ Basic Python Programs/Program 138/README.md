@@ -1,7 +1,3 @@
-# Program138
-Here is the **README.md** file for **Program 138 – Dictionary to List Conversion**:
-
----
 
 ## 📘 Program 138 – Dictionary to List Conversion
 
