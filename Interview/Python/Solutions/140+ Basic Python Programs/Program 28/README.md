@@ -1,9 +1,4 @@
-# Program28
-Certainly! Here's a complete and structured explanation for **Program 28 – Finding Factorial of a Number Using Recursion in Python**:
 
----
-
-```markdown
 # 🔢 Program 28: Factorial of a Number Using Recursion (Python)
 
 This Python program calculates the **factorial** of a number using **recursion**.
