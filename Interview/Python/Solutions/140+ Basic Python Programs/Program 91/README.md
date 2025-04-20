@@ -76,7 +76,3 @@ Square area: 25
 - The `Square` class uses the formula **side²** to calculate the area of the square.
 
 ---
-
-Let me know if you need further modifications! 🌟
-
-```
