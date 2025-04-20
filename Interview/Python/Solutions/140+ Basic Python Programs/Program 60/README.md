@@ -1,9 +1,4 @@
-# Program60
-Sure! Here's **Program 60** in your preferred format:
 
----
-
-```markdown
 # 📝 Program 60: Find Words Greater Than a Given Length k (Python)
 
 This Python program helps you find all the **words in a sentence that are longer than a given length**.
@@ -65,10 +60,3 @@ Words longer than 6 characters are: ['powerful', 'versatile', 'programming', 'la
 
 ---
 
-📝 Filtering words is a great way to process and analyze text in Python!
-
-```
-
----
-
-Let me know if you’d like **Program 61** in the same style!
