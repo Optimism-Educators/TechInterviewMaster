@@ -98,11 +98,3 @@ DIGITS 3
 Useful in scenarios like text analysis, form validation, or content moderation where understanding the composition of a string is required.
 
 ---
-
-Let me know if you'd like the same format for more programs! 🚀
-
-```
-
---- 
-
-Would you like **Program 78** as well? I noticed we skipped that one!
