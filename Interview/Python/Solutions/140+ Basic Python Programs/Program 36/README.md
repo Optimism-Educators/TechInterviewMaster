@@ -88,10 +88,3 @@ monotonic_array_check/
 - Allow checking for **monotonic subsequences**.
 - Implement for **floating point** arrays.
 
----
-
-Happy Coding! 💡📊
-
-```
-
-Let me know if you'd like me to continue with more programs in this format!
