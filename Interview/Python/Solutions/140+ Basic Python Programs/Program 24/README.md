@@ -1,9 +1,4 @@
-# Program24
-Here's a well-organized and student-friendly `README.md` for **Program 24 – Convert Decimal to Binary, Octal, and Hexadecimal**:
 
----
-
-```markdown
 # 🔢 Program 24: Convert Decimal to Binary, Octal, and Hexadecimal
 
 This Python program converts a **decimal number** into its **binary**, **octal**, and **hexadecimal** representations.
