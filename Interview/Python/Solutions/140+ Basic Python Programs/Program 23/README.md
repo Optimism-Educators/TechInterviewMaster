@@ -113,9 +113,3 @@ hcf_program/
 - **Prime Factorization (alternative method for HCF)**
 
 ---
-
-Happy Learning! 🚀✨
-
-```
-
-Let me know if you'd like the HCF for more than two numbers too, or want this saved as a file in a project folder!# Program23
