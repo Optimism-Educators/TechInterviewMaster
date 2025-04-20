@@ -55,12 +55,3 @@ boolean expected
 
 ---
 
-## ✨ Author
-
-Program created for basic Python learning and practice.
-
-```
-
----
-
-Let me know if you'd like to save this as a `.md` file or include it in your repository structure!
