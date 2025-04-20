@@ -1,4 +1,8 @@
-#
+Closed by #
+Fixes #
+Closes #
+Resolve #
+Fixes  #
 <div align="center">
   <img src="https://media.giphy.com/media/26ufnwz3wDUli7GU0/giphy.gif" width="120" alt="PR Animation">
   <h2>Thank you for your contribution! 🌟</h2>
@@ -7,9 +11,7 @@
 ## 📋 Description
 <!-- Please include a summary of the change and which issue is fixed. -->
 
-Fixes #(issue)
-Closes #issue
-Resolve #issue
+
 
 
 ## 🛠️ Type of Change
