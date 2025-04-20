@@ -1,9 +1,4 @@
-# Program79
-Here is **Program 79** in your preferred format:
 
----
-
-```markdown
 # 📝 Program 79: Count Letters and Digits in a Sentence
 
 This Python program accepts a sentence as input and calculates the number of **alphabetic letters** and **numeric digits** in it.
