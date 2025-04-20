@@ -1,7 +1,3 @@
-# Program140
-Here is the **README.md** file for **Program 140 – Replace Vowels in a String**:
-
----
 
 ## 📘 Program 140 – Replace Vowels in a String
 
@@ -106,6 +102,3 @@ For the input `"stuffed jalapeno poppers"` and the replacement vowel `"e"`:
 - **Input**: `"stuffed jalapeno poppers"`, `"e"`
   - **Output**: `"steffed jelepene peppers"`
 
----
-
-Let me know if you need any further modifications or details!
