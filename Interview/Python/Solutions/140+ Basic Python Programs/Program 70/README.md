@@ -1,9 +1,4 @@
-# Program70
-Here is **Program 70** in the requested format:
 
----
-
-```markdown
 # 📝 Program 70: Convert Key-Values List to Flat Dictionary (Python)
 
 This Python program demonstrates how to convert a list of key-value pairs into a flat dictionary.
