@@ -106,9 +106,3 @@ matrix_addition/
 - Extend the program to **multiply** matrices.
 
 ---
-
-Keep Coding! 🧠✨
-
-```
-
-Let me know if you want versions that take user input or use NumPy for matrix operations!
