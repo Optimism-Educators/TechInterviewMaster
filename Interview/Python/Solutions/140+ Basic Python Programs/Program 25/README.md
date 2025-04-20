@@ -99,8 +99,3 @@ for ch in range(65, 91):
 
 ---
 
-Happy Coding! 🎯📘
-
-```
-
-Let me know if you want a version of this in Hindi or with practice exercises included!
