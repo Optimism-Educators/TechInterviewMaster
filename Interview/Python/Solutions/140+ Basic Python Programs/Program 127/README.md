@@ -1,7 +1,3 @@
-# Program127
-Here is the **README.md** file for **Program 127 – Symmetrical Number Checker**:
-
----
 
 ## 📘 Program 127 – Symmetrical Number Checker
 
