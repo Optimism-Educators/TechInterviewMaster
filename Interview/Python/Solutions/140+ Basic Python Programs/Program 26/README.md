@@ -110,9 +110,3 @@ simple_calculator/
 - Add a menu to perform more operations like modulus or power 🔢
 
 ---
-
-Happy Calculating! 🧮🚀
-
-```
-
-Let me know if you want a **GUI version using Tkinter**, a **CLI menu with looping**, or an **advanced version with error handling and logging**.
