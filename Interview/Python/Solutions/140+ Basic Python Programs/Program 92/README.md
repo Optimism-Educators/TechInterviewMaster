@@ -65,7 +65,3 @@ ou... ou... outstanding?
 - The function uses string slicing to grab the first two characters and constructs the stuttered version of the word by repeating them.
 
 ---
-
-Let me know if you'd like any further adjustments! ✨
-
-```
