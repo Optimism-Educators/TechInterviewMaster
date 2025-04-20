@@ -107,10 +107,3 @@ matrix_transpose/
   result = np.transpose(matrix)
   ```
 
----
-
-Keep practicing and keep growing! 💡📈
-
-```
-
-Let me know if you want the user input version or the NumPy version too!
