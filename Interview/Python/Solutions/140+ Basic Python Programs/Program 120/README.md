@@ -1,7 +1,3 @@
-# Program120
-Here's the **README.md** file for **Program 120 – Compound Interest Calculation**:
-
----
 
 ## 📘 Program 120 – Compound Interest Calculation
 
@@ -74,5 +70,3 @@ def compound_interest(p, t, r, n):
 2. The function will return the total accumulated value at the end of the term, rounded to the nearest cent.
 
 ---
-
-Let me know if you'd like this in `.md` format or included with any other files!
