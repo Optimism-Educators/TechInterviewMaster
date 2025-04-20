@@ -1,9 +1,4 @@
-# Program97
-Here’s **Program 97** written in the format you requested:
 
----
-
-```markdown
 # 🟩 Program 97: Sum of Numbers Divisible by `c` in a Range
 
 This Python program calculates the sum of numbers in a given range that are evenly divisible by a specified number `c`.
@@ -73,8 +68,3 @@ print(evenly_divisible(1, 10, 3))   # Output: 18
 - The function uses list comprehension with `sum()` to calculate the sum of the numbers that satisfy the divisibility condition (`x % c == 0`).
 - The range function `range(a, b + 1)` includes both `a` and `b`, ensuring the full range is checked.
 
----
-
-Let me know if you'd like any further adjustments! ✨
-
-```
