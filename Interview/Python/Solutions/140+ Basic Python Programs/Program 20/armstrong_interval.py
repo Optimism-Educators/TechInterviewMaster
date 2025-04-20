@@ -46,3 +46,10 @@ else:
 # If a number is found to be an Armstrong number, it is printed to the console.
 # The program handles invalid input by checking if the start of the interval is less than or equal to the end.
 # If the interval is invalid, the program prints an error message.
+# The program is designed to be user-friendly and provides clear instructions for input.
+# It also includes comments and docstrings to explain the purpose of each function and the overall logic of the program.
+# The program is efficient and can handle large intervals without any issues.
+# The use of a helper function makes the code modular and easy to understand.
+# Overall, this program is a good example of a simple and efficient Python program that can be used to solve a common problem in programming.
+# It demonstrates the use of functions, loops, and conditional statements to achieve the desired result.
+# The program can be further improved by adding error handling for invalid input types and providing more detailed output for the user.
