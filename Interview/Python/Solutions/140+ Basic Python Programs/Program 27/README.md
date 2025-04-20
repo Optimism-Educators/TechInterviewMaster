@@ -1,9 +1,4 @@
-# Program27
-Certainly! Here's a complete and structured explanation for **Program 27 – Displaying Fibonacci Sequence Using Recursion in Python**, just like you asked:
 
----
-
-```markdown
 # 🌀 Program 27: Fibonacci Sequence Using Recursion (Python)
 
 This Python program uses **recursion** to print the Fibonacci sequence up to a certain number of terms, as entered by the user.
