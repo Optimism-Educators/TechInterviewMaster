@@ -77,13 +77,3 @@ find_smallest_number/
 - You could also implement this using Python's built-in `min()` function for a more concise solution.
 
 ---
-
-Happy Coding! 🚀
-
-```
-
----
-
-This Python program iterates through the list to compare each element, updating the smallest value when necessary. It also handles empty lists with a message.
-
-Let me know if you need further adjustments!
