@@ -70,13 +70,3 @@ multiply_numbers/
 - Add functionality to **exclude zero** from the multiplication or handle the case where the list contains zero.
 
 ---
-
-Happy Coding! 🚀
-
-```
-
----
-
-This Python program multiplies all the numbers in a list and prints the result. It uses a loop to iterate over each number in the list, multiplying the numbers together.
-
-Let me know if you'd like any modifications or further clarifications!
