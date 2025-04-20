@@ -1,7 +1,3 @@
-# Program122
-Here’s the **README.md** file for **Program 122 – List Operation with Divisibility**:
-
----
 
 ## 📘 Program 122 – List Operation with Divisibility
 
@@ -73,6 +69,3 @@ print(result)  # Output: [3, 6, 9]
 - **Divisibility**: For each number in the range, the function checks if it is divisible by `n` using the modulus operator (`%`).
 - **Return**: The function returns a list of all numbers that are divisible by `n`. If no such numbers exist, an empty list is returned.
 
----
-
-Let me know if you need any other modifications or additions!
