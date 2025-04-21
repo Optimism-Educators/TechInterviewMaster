@@ -19,23 +19,3 @@ if __name__ == "__main__":
     arr = [1, 2, 3, 4, 5]
     print(largest_element(arr))
     
-
-# Solution 2: Using a loop
-# This function takes an array as input and returns the largest element in the array.
-# It uses a for loop to iterate through the array and find the largest element.
-# The loop starts with the first element as the largest element and compares it with each subsequent element.
-# If a larger element is found, it updates the largest element.
-# Finally, it returns the largest element found in the array.
-
-def largest_element(arr):
-    largest = arr[0]  # Assume the first element is the largest
-    for num in arr:
-        if num > largest:
-            largest = num
-    return largest
-# Driver code
-if __name__ == "__main__":
-    arr = [1, 2, 3, 4, 5]
-    print(largest_element(arr))
-    arr = [5, 4, 3, 2, 1]
-    print(largest_element(arr))
