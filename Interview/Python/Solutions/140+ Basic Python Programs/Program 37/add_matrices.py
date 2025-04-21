@@ -22,6 +22,23 @@ def add_matrices(A, B):
 
     return result
 
-# Test the function
+#Test the function
+A=int(input("Enter the number of rows in matrix A: "))
+B=int(input("Enter the number of columns in matrix A: "))
+C=int(input("Enter the number of rows in matrix B: "))
+D=int(input("Enter the number of columns in matrix B: "))
+A = [[int(input("Enter element A{}{}: ".format(i+1, j+1))) for j in range(B)] for i in range(A)]
+B = [[int(input("Enter element B{}{}: ".format(i+1, j+1))) for j in range(D)] for i in range(C)]    
+print("Matrix A:", A)
+print("Matrix B:", B)
+# Call the function and print the result
+result = add_matrices(A, B)
+print("Resultant Matrix:", result)
+
+"""
 A = [[1, 2, 3], [4, 5, 6]]
 B = [[7, 8, 9], [10, 11, 12]]
+print("Matrix A:", A)
+print("Matrix B:", B)
+print("Resultant Matrix:", result)
+"""
