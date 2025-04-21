@@ -14,6 +14,8 @@
 # The program also uses the time module to measure the execution time of the program.
 # The program uses the time module to measure the execution time of the program.
 
+import time
+
 def natural_log(x, n_terms=1000):
      """
      Calculate the natural logarithm of a number using Taylor series expansion.
