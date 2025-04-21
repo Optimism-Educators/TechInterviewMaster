@@ -19,4 +19,6 @@ def right_rotate(lst, steps):
      steps = steps % len(lst)  # Handle cases where steps > len(lst)
      return lst[-steps:] + lst[:-steps]
 print(right_rotate([1, 2, 3, 4, 5], 3))  # Output: [3, 4, 5, 1, 2]
+print(right_rotate([1, 2, 3, 4, 5], 2))  # Output: [4, 5, 1, 2, 3]
+print(right_rotate([1, 2, 3, 4, 5], 0))  # Output: [1, 2, 3, 4, 5]
 
