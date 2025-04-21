@@ -32,3 +32,15 @@ str2 = "Python"
 result = split_and_append(str1, str2)
 print(result)  # Output: "Hello World Python"
 
+# Function to test the split_and_append function with different inputs
+def test_split_and_append():
+    assert split_and_append("Hello World", "Python") == "Hello World Python"
+    assert split_and_append("Good Morning", "Everyone") == "Good Morning Everyone"
+    assert split_and_append("Welcome to", "Python Programming") == "Welcome to Python Programming"
+    assert split_and_append("Split this string", "and append") == "Split this string and append"
+    assert split_and_append("", "Empty String") == " Empty String"
+    assert split_and_append("SingleWord", "") == "SingleWord "
+    print("All tests passed!")
+
+
+test_split_and_append()
