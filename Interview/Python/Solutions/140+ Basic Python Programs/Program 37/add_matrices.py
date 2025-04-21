@@ -22,23 +22,32 @@ def add_matrices(A, B):
 
     return result
 
-#Test the function
-A=int(input("Enter the number of rows in matrix A: "))
-B=int(input("Enter the number of columns in matrix A: "))
-C=int(input("Enter the number of rows in matrix B: "))
-D=int(input("Enter the number of columns in matrix B: "))
-A = [[int(input("Enter element A{}{}: ".format(i+1, j+1))) for j in range(B)] for i in range(A)]
-B = [[int(input("Enter element B{}{}: ".format(i+1, j+1))) for j in range(D)] for i in range(C)]    
-print("Matrix A:", A)
-print("Matrix B:", B)
-# Call the function and print the result
-result = add_matrices(A, B)
-print("Resultant Matrix:", result)
+
+
+# Example usage
+if __name__ == "__main__":
+    # Example matrices
+    A = [[1, 2, 3], [4, 5, 6]]
+    B = [[7, 8, 9], [10, 11, 12]]
+
+    # Add the matrices
+    result = add_matrices(A, B)
+
+    # Print the result
+    print("Matrix A:", A)
+    print("Matrix B:", B)
+    print("Resultant Matrix:", result)
 
 """
-A = [[1, 2, 3], [4, 5, 6]]
-B = [[7, 8, 9], [10, 11, 12]]
-print("Matrix A:", A)
-print("Matrix B:", B)
-print("Resultant Matrix:", result)
+Output:
+Matrix A: [[1, 2, 3], [4, 5, 6]]
+Matrix B: [[7, 8, 9], [10, 11, 12]]
+Resultant Matrix: [[8, 10, 12], [14, 16, 18]]
 """
+# Time Complexity: O(n*m), where n is the number of rows and m is the number of columns in the matrices.
+# Space Complexity: O(n*m), as we are creating a new matrix to store the result.
+# Note: This program assumes that the input matrices are non-empty and rectangular (all rows have the same number of columns).
+# The program can be modified to handle different dimensions or empty matrices if needed.
+# The program can be tested with different matrices to ensure its correctness.
+# The program can be further optimized by using numpy for matrix operations, which is more efficient for large matrices.
+# The program can be extended to handle matrix subtraction, multiplication, and other operations as needed.
