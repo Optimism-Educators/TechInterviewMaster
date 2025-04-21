@@ -1,5 +1,5 @@
-# Author: <NAME>
-# Date: 23-07-2020
+# Author: <Antim Pal>
+# Date: 21-04-2025
 # Description: Write a Python program to find the largest element in an array.
 # Input: [1, 2, 3, 4, 5]
 # Output: 5
