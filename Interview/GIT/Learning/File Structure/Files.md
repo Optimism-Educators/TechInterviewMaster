@@ -72,7 +72,3 @@ Here's a list of popular repo templates you can use:
 - [Data Science Project](https://github.com/tech-interview-master/data-science-project-template)
 - [Web Project](https://github.com/tech-interview-master/web-project-template)
 - [Node.js Project](https://github.com/tech-interview-master/nodejs-project-template)
-
-![Contributors](docs/contributors.svg)
-
-
