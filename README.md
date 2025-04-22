@@ -1,14 +1,21 @@
 <div align="center">
-  <img height="25px" src="https://img.shields.io/github/stars/iamAntimPal/TechInterviewMaster?style=social" alt="GitHub stars">
-  <img height="25px" src="https://img.shields.io/github/forks/iamAntimPal/TechInterviewMaster?style=social" alt="GitHub forks">
-  <img height="25px" src="https://img.shields.io/github/contributors/iamAntimPal/TechInterviewMaster" alt="Contributors">
-  <img height="25px" src="https://img.shields.io/github/issues-pr/iamAntimPal/TechInterviewMaster" alt="Pull Requests">
-  <img height="25px" src="https://img.shields.io/github/issues/iamAntimPal/TechInterviewMaster" alt="Issues">
+<a href="https://github.com/iamAntimPal/TechInterviewMaster/forks">
+  <img height="25px" src="https://img.shields.io/github/stars/iamAntimPal/TechInterviewMaster?style=social" alt="GitHub stars"></a>
+  <a href="https://github.com/iamAntimPal/TechInterviewMaster">
+  <img height="25px" src="https://img.shields.io/github/forks/iamAntimPal/TechInterviewMaster?style=social" alt="GitHub forks"></a>
+  <a href="https://github.com/iamAntimPal/TechInterviewMaster">
+  <img height="25px" src="https://img.shields.io/github/contributors/iamAntimPal/TechInterviewMaster" alt="Contributors"></a>
+  <a href="https://github.com/iamAntimPal/TechInterviewMaster">
+  <img height="25px" src="https://img.shields.io/github/issues-pr/iamAntimPal/TechInterviewMaster" alt="Pull Requests"></a>
+  <a href="https://github.com/iamAntimPal/TechInterviewMaster/issues">
+  <img height="25px" src="https://img.shields.io/github/issues/iamAntimPal/TechInterviewMaster" alt="Issues"></a>
   <img height="25px" src="https://img.shields.io/github/license/iamAntimPal/TechInterviewMaster" alt="License">
   <a href="https://makeapullrequest.com"><img height="25px" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"></a>
   <img height="25px" src="https://img.shields.io/github/last-commit/iamAntimPal/TechInterviewMaster"/>
+    <a href="https://github.com/iamAntimPal/TechInterviewMaster/commits/main/"><img height="25px" src="https://img.shields.io/github/commit-activity/y/iamAntimPal/TechInterviewMaster" alt="PRs Welcome"></a>
   <a href="https://wakatime.com/badge/user/f1f7c244-1d72-4129-94b7-6b4d1972b55a/project/c0a0249d-de59-4cbe-aa51-68012ee6f377"><img height="25px"src="https://wakatime.com/badge/user/f1f7c244-1d72-4129-94b7-6b4d1972b55a/project/c0a0249d-de59-4cbe-aa51-68012ee6f377.svg" alt="wakatime"></a>
 </div>
+
 
 # TechInterviewMaster
 
