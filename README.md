@@ -16,6 +16,7 @@
   <a href="https://wakatime.com/badge/user/f1f7c244-1d72-4129-94b7-6b4d1972b55a/project/c0a0249d-de59-4cbe-aa51-68012ee6f377"><img height="25px"src="https://wakatime.com/badge/user/f1f7c244-1d72-4129-94b7-6b4d1972b55a/project/c0a0249d-de59-4cbe-aa51-68012ee6f377.svg" alt="wakatime"></a>
 </div>
 
+<img src="./docs/contributers.svg">
 
 # TechInterviewMaster
 
@@ -73,7 +74,6 @@ We encourage you to contribute to TechInterviewMaster by adding new questions, r
 
 ## Contributing
 
-<img src="./docs/template">
 
 We welcome contributions! Please read the [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) and open an issue or pull request. All types of contributions are appreciated, from fixing typos to adding new questions or solutions.
 
