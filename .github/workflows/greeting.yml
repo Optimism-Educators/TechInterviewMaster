@@ -12,9 +12,10 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            github.issues.createComment({
+            const { context, github } = require('@actions/github');
+            await github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: `## 🎉 Thank You for Contributing! 🙌\n\nHi there! 👋\n\nWe truly appreciate your time, effort, and contribution to this project. Your input helps make this project better for everyone! 💪✨\n\n### 🌟 You’re Awesome!\n\n![Thanks GIF](https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif)\n\nIf you haven’t already, feel free to ⭐ **star** the repo, and don’t hesitate to connect or collaborate more in the future!\n\nThanks again! 💙\n\n— The Maintainers 🚀`
+              body: `## 🎉 Thank You for Contributing! 🙌\n\nHi there! 👋\n\nWe truly appreciate your time, effort, and contribution to this project. Your input helps make this project better.`,
             });
