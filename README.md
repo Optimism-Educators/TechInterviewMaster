@@ -13,9 +13,18 @@
 # TechInterviewMaster
 
 A comprehensive, community-driven hub for technical interview Q&A! 🎯 Python 🐍, JavaScript 🟨, Java ☕, Git 🐙 & more—from beginner to advanced levels. Contribute & excel! 💡✨
+<!--
 <p>
 <figure><embed src="https://wakatime.com/share/@Antim_Pal/029df116-651b-4df7-8ae0-fc31642b8f39.svg"></embed></figure>
 </p>
+-->
+
+## 🕒 Weekly WakaTime Report
+<p>
+<img height="300px" width="400px" src="https://github-readme-stats.vercel.app/api/wakatime?username=Antim_Pal">
+<img height="300px" width="400px" src="https://wakatime.com/share/@Antim_Pal/1fbe1ed9-7de3-4fab-acb2-e7f49f4875df.svg"/>
+</p>
+
 
 ## Index
 
