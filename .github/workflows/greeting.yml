@@ -1,0 +1,39 @@
+name: "Greet on PR"
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greet the contributor
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `🎉 **Thanks for Opening a Pull Request!** 🙌
+
+Hey @${{ github.actor }} 👋,
+
+Thank you for taking the time to contribute! 🚀  
+Your PR has been received and will be reviewed as soon as possible. 🧐✨
+
+We appreciate your help in making this project better.  
+Feel free to check out other issues, or drop a ⭐ if you like what we’re building!
+
+---
+**Next Steps:**  
+- The maintainers will review your PR 🔍  
+- You’ll be notified of any comments or requested changes 🛠️  
+- Once approved, your changes will be merged 💡
+
+Thanks again! You rock 💙  
+— The Team 🌟
+
+![Welcome GIF](https://media.giphy.com/media/xT0GqzKFPvfJ9n1oZ6/giphy.gif)`
+            });
