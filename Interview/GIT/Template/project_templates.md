@@ -1,6 +1,7 @@
 # Template for Python App
 
 ## Project Structure
+
 ```
 python-app-template/
 ├── .gitignore
@@ -13,6 +14,7 @@ python-app-template/
 ```
 
 ### Key Files
+
 - **README.md**: Explains the project purpose, installation, and usage.
 - **requirements.txt**: Lists Python dependencies.
 - **main.py**: Entry point of the application.
@@ -23,6 +25,7 @@ python-app-template/
 # Template for Data Science Project
 
 ## Project Structure
+
 ```
 data-science-project-template/
 ├── .gitignore
@@ -49,6 +52,7 @@ data-science-project-template/
 ```
 
 ### Key Files
+
 - **README.md**: Overview of the project.
 - **requirements.txt**: Python dependencies.
 - **notebooks/**: Jupyter notebooks for analysis.
@@ -59,6 +63,7 @@ data-science-project-template/
 # Template for Web Project
 
 ## Project Structure
+
 ```
 web-project-template/
 ├── .gitignore
@@ -70,6 +75,7 @@ web-project-template/
 ```
 
 ### Key Files
+
 - **README.md**: Project overview and usage.
 - **index.html**: Main HTML file.
 - **style.css**: Stylesheet.
@@ -80,6 +86,7 @@ web-project-template/
 # Template for Node.js Project
 
 ## Project Structure
+
 ```
 nodejs-project-template/
 ├── .gitignore
@@ -92,6 +99,7 @@ nodejs-project-template/
 ```
 
 ### Key Files
+
 - **README.md**: Project overview and usage.
 - **package.json**: Node.js dependencies and scripts.
 - **index.js**: Entry point of the application.

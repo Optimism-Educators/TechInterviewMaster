@@ -1,6 +1,7 @@
 # Data Science Project Template
 
 ## Project Structure
+
 ```
 data-science-project-template/
 ├── .gitignore
@@ -27,6 +28,7 @@ data-science-project-template/
 ```
 
 ## Key Files
+
 - **README.md**: Overview of the project.
 - **requirements.txt**: Python dependencies.
 - **notebooks/**: Jupyter notebooks for analysis.
@@ -36,6 +38,7 @@ data-science-project-template/
 - **tests/**: Contains test scripts.
 
 ## Usage
+
 1. Clone the repository.
 2. Install dependencies using `pip install -r requirements.txt`.
 3. Use the notebooks for exploratory data analysis and modeling.
@@ -44,6 +47,7 @@ data-science-project-template/
 ---
 
 ### Example Workflow
+
 1. Place raw data in the `data/raw/` folder.
 2. Use `notebooks/01_EDA.ipynb` for exploratory data analysis.
 3. Preprocess data using `src/preprocess.py`.
