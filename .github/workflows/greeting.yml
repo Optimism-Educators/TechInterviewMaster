@@ -1,4 +1,4 @@
-name: "Greet on PR"
+name: "Greet Contributor"
 
 on:
   pull_request:
@@ -16,24 +16,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: `🎉 **Thanks for Opening a Pull Request!** 🙌
-
-Hey @${{ github.actor }} 👋,
-
-Thank you for taking the time to contribute! 🚀  
-Your PR has been received and will be reviewed as soon as possible. 🧐✨
-
-We appreciate your help in making this project better.  
-Feel free to check out other issues, or drop a ⭐ if you like what we’re building!
-
----
-**Next Steps:**  
-- The maintainers will review your PR 🔍  
-- You’ll be notified of any comments or requested changes 🛠️  
-- Once approved, your changes will be merged 💡
-
-Thanks again! You rock 💙  
-— The Team 🌟
-
-![Welcome GIF](https://media.giphy.com/media/xT0GqzKFPvfJ9n1oZ6/giphy.gif)`
+              body: `## 🎉 Thank You for Contributing! 🙌\n\nHi there! 👋\n\nWe truly appreciate your time, effort, and contribution to this project. Your input helps make this project better for everyone! 💪✨\n\n### 🌟 You’re Awesome!\n\n![Thanks GIF](https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif)\n\nIf you haven’t already, feel free to ⭐ **star** the repo, and don’t hesitate to connect or collaborate more in the future!\n\nThanks again! 💙\n\n— The Maintainers 🚀`
             });
