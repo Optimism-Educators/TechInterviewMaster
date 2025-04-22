@@ -18,22 +18,22 @@ jobs:
               repo: context.repo.repo,
               body: `🎉 **Thank You for Your Contribution!** 🙌
 
-Hi @${{ github.actor }} 👋
-
-Thanks for opening this pull request and contributing to the project! 💻✨  
-Your effort means a lot, and we’re excited to review your changes. 🔍
-
-### 🚀 What’s Next?
-- A maintainer will review your PR shortly.
-- You may receive comments or suggestions.
-- Once everything looks great, your code will be merged in!
-
-💬 If you have any questions, feel free to ask in this thread.  
-And if you haven’t already — ⭐ star the repo and join our growing community!
-
-Thanks again — your contribution helps move this project forward. 💙
-
-— _The Maintainers_ 🙏
-
-![Thanks GIF](https://media.giphy.com/media/xT0GqzG4X2nZQcdH20/giphy.gif)`
-            });
+              Hi @${{ github.actor }} 👋
+                      
+              Thanks for opening this pull request and contributing to the project! 💻✨  
+              Your effort means a lot, and we’re excited to review your changes. 🔍
+                      
+              ### 🚀 What’s Next?
+              - A maintainer will review your PR shortly.
+              - You may receive comments or suggestions.
+              - Once everything looks great, your code will be merged in!
+                      
+              💬 If you have any questions, feel free to ask in this thread.  
+              And if you haven’t already — ⭐ star the repo and join our growing community!
+                      
+              Thanks again — your contribution helps move this project forward. 💙
+                      
+              — _The Maintainers_ 🙏
+                      
+              ![Thanks GIF](https://media.giphy.com/media/xT0GqzG4X2nZQcdH20/giphy.gif)`
+                          });
