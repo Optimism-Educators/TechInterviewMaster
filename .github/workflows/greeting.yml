@@ -1,25 +1,17 @@
-name: "Greet on PR Open"
+name: Greetings
 
-on:
-  pull_request:
-    types: [opened]
-    branches:
-      - main # Only trigger when PR targets the 'main' branch
+on: [pull_request_target, issues]
 
 jobs:
-  greet:
+  greeting:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
     steps:
-      - name: Greet contributor on PR open
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const { context, github } = require('@actions/github');
-            const octokit = github.getOctokit(process.env.GITHUB_TOKEN);
-
-            await octokit.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `Hi @${context.actor},\n\nThank you for contributing! 🎉 Your efforts are greatly appreciated. 🙌\n\n— _The Team_ 💙`
-            });
+    # https://github.com/actions/first-interaction
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GH_TOKEN }}
+        issue-message: "Message that will be displayed on users' first issue"
+        pr-message: "Message that will be displayed on users' first pull request"
