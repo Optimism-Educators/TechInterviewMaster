@@ -15,9 +15,9 @@
     <a href="https://github.com/iamAntimPal/TechInterviewMaster/commits/main/"><img height="25px" src="https://img.shields.io/github/commit-activity/y/iamAntimPal/TechInterviewMaster" alt="PRs Welcome"></a>
   <a href="https://wakatime.com/badge/user/f1f7c244-1d72-4129-94b7-6b4d1972b55a/project/c0a0249d-de59-4cbe-aa51-68012ee6f377"><img height="25px"src="https://wakatime.com/badge/user/f1f7c244-1d72-4129-94b7-6b4d1972b55a/project/c0a0249d-de59-4cbe-aa51-68012ee6f377.svg" alt="wakatime"></a>
 </div>
-
-<img src="./docs/contributers.svg">
-
+<p align="center">
+  <img src="./docs/contributers.svg">
+</p>
 # TechInterviewMaster
 
 A comprehensive, community-driven hub for technical interview Q&A! 🎯 Python 🐍, JavaScript 🟨, Java ☕, Git 🐙 & more—from beginner to advanced levels. Contribute & excel! 💡✨
