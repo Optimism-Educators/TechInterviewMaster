@@ -3,6 +3,8 @@ name: "Greet on PR Open"
 on:
   pull_request:
     types: [opened]
+    branches:
+      - main # Only trigger when PR targets the 'main' branch
 
 jobs:
   greet:
@@ -19,22 +21,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: `🎉 **Welcome to the Project!** 🚀
-
-              Hi @${context.actor},
-
-              Thank you for opening this pull request! Your contribution is greatly appreciated. 🙌
-
-              ### What Happens Next?
-              - A maintainer will review your changes soon.
-              - You might receive feedback or suggestions to improve your PR.
-              - Once approved, your code will be merged into the project. 🎯
-
-              If you have any questions or need assistance, feel free to ask here. We're here to help! 😊
-
-              Thanks for being a part of our community and helping us grow. 🌟
-
-              — _The Team_ 💙
-
-              ![Welcome GIF](https://media.giphy.com/media/3o7abldj0b3rxrZUxW/giphy.gif)`
+              body: `Hi @${context.actor},\n\nThank you for contributing! 🎉 Your efforts are greatly appreciated. 🙌\n\n— _The Team_ 💙`
             });
