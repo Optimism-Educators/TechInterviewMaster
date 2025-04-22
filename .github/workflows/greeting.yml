@@ -1,4 +1,4 @@
-name: "Greet Contributor"
+name: "Greet on PR Open"
 
 on:
   pull_request:
@@ -8,14 +8,32 @@ jobs:
   greet:
     runs-on: ubuntu-latest
     steps:
-      - name: Greet the contributor
+      - name: Greet contributor on PR open
         uses: actions/github-script@v6
         with:
           script: |
-            const github = require('@actions/github').getOctokit(process.env.GITHUB_TOKEN);
-            await github.rest.issues.createComment({
-              issue_number: github.context.issue.number,
-              owner: github.context.repo.owner,
-              repo: github.context.repo.repo,
-              body: `## 🎉 Thank You for Contributing! 🙌\n\nHi there! 👋\n\nWe truly appreciate your time, effort, and contribution to this project. Your input helps make this project better for everyone! 🚀`
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `🎉 **Thank You for Your Contribution!** 🙌
+
+Hi @${{ github.actor }} 👋
+
+Thanks for opening this pull request and contributing to the project! 💻✨  
+Your effort means a lot, and we’re excited to review your changes. 🔍
+
+### 🚀 What’s Next?
+- A maintainer will review your PR shortly.
+- You may receive comments or suggestions.
+- Once everything looks great, your code will be merged in!
+
+💬 If you have any questions, feel free to ask in this thread.  
+And if you haven’t already — ⭐ star the repo and join our growing community!
+
+Thanks again — your contribution helps move this project forward. 💙
+
+— _The Maintainers_ 🙏
+
+![Thanks GIF](https://media.giphy.com/media/xT0GqzG4X2nZQcdH20/giphy.gif)`
             });
