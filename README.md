@@ -16,6 +16,7 @@ A comprehensive, community-driven hub for technical interview Q&A! ðŸŽ¯ Python ð
 <p>
 <figure><embed src="https://wakatime.com/share/@Antim_Pal/029df116-651b-4df7-8ae0-fc31642b8f39.svg"></embed></figure>
 </p>
+
 ## Index
 
 - [About](#about)
