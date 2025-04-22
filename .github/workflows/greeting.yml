@@ -12,10 +12,10 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            const { context, github } = require('@actions/github');
+            const github = require('@actions/github').getOctokit(process.env.GITHUB_TOKEN);
             await github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `## 🎉 Thank You for Contributing! 🙌\n\nHi there! 👋\n\nWe truly appreciate your time, effort, and contribution to this project. Your input helps make this project better.`,
+              issue_number: github.context.issue.number,
+              owner: github.context.repo.owner,
+              repo: github.context.repo.repo,
+              body: `## 🎉 Thank You for Contributing! 🙌\n\nHi there! 👋\n\nWe truly appreciate your time, effort, and contribution to this project. Your input helps make this project better for everyone! 🚀`
             });
