@@ -1,0 +1,13 @@
+*.py linguist-detectable=true
+*.ipynb linguist-detectable=true
+*.pyc linguist-detectable=false
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+*.json linguist-detectable=false
+*.md linguist-detectable=false
+*.mdx linguist-detectable=false
+*.mdwn linguist-detectable=false
+*.mdwn linguist-detectable=false
+*.mkd linguist-detectable=false
+*.ipynb linguist-detectable=true
