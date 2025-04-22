@@ -8,6 +8,8 @@ jobs:
   comment_pr:
     runs-on: ubuntu-latest
     name: Auto-comment PR
+    permissions: # Add this block
+      pull-requests: write
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
@@ -27,5 +29,3 @@ jobs:
 
             Let's make tech interviews easier for everyone! 💪  
             — _The Maintainers_
-
-            📧 [tech-interview-master@github.com](mailto:tech-interview-master@github.com))
