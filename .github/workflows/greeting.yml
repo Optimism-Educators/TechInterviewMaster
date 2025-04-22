@@ -14,3 +14,4 @@ jobs:
         with:
           repo-token: ${{ secrets.GH_TOKEN }}
           issue-message: "Thank you for opening an issue!"
+          pr-message: "Hi @${{ github.actor }},\n\nThank you for opening this pull request! Your contribution is greatly appreciated. 🙌\n\n### What Happens Next?\n- A maintainer will review your changes soon.\n- You might receive feedback or suggestions to improve your PR.\n- Once approved, your code will be merged into the project. 🎯\n\nIf you have any questions or need assistance, feel free to ask here. We're here to help! 😊\n\nThanks for being a part of our community and helping us grow. 🌟\n\n— _The Team_ 💙\n\n![Welcome GIF](https://media.giphy.com/media/3o7abldj0b3rxrZUxW/giphy.gif)"
