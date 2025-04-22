@@ -12,28 +12,29 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            github.issues.createComment({
+            const { context, github } = require('@actions/github');
+            const octokit = github.getOctokit(process.env.GITHUB_TOKEN);
+
+            await octokit.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: `🎉 **Thank You for Your Contribution!** 🙌
+              body: `🎉 **Welcome to the Project!** 🚀
 
-              Hi @${{ github.actor }} 👋
-                      
-              Thanks for opening this pull request and contributing to the project! 💻✨  
-              Your effort means a lot, and we’re excited to review your changes. 🔍
-                      
-              ### 🚀 What’s Next?
-              - A maintainer will review your PR shortly.
-              - You may receive comments or suggestions.
-              - Once everything looks great, your code will be merged in!
-                      
-              💬 If you have any questions, feel free to ask in this thread.  
-              And if you haven’t already — ⭐ star the repo and join our growing community!
-                      
-              Thanks again — your contribution helps move this project forward. 💙
-                      
-              — _The Maintainers_ 🙏
-                      
-              ![Thanks GIF](https://media.giphy.com/media/xT0GqzG4X2nZQcdH20/giphy.gif)`
-                          });
+              Hi @${context.actor},
+
+              Thank you for opening this pull request! Your contribution is greatly appreciated. 🙌
+
+              ### What Happens Next?
+              - A maintainer will review your changes soon.
+              - You might receive feedback or suggestions to improve your PR.
+              - Once approved, your code will be merged into the project. 🎯
+
+              If you have any questions or need assistance, feel free to ask here. We're here to help! 😊
+
+              Thanks for being a part of our community and helping us grow. 🌟
+
+              — _The Team_ 💙
+
+              ![Welcome GIF](https://media.giphy.com/media/3o7abldj0b3rxrZUxW/giphy.gif)`
+            });
