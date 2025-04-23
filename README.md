@@ -16,11 +16,21 @@
   <a href="https://wakatime.com/badge/user/f1f7c244-1d72-4129-94b7-6b4d1972b55a/project/c0a0249d-de59-4cbe-aa51-68012ee6f377"><img height="25px"src="https://wakatime.com/badge/user/f1f7c244-1d72-4129-94b7-6b4d1972b55a/project/c0a0249d-de59-4cbe-aa51-68012ee6f377.svg" alt="wakatime"></a>
 </div>
 
-<img src="./docs/contributers.svg">
-
 # TechInterviewMaster
 
 A comprehensive, community-driven hub for technical interview Q&A! 🎯 Python 🐍, JavaScript 🟨, Java ☕, Git 🐙 & more—from beginner to advanced levels. Contribute & excel! 💡✨
+<!--
+<p>
+<figure><embed src="https://wakatime.com/share/@Antim_Pal/029df116-651b-4df7-8ae0-fc31642b8f39.svg"></embed></figure>
+</p>
+-->
+
+## 🕒 Weekly WakaTime Report
+<p>
+<img height="300px" width="400px" src="https://github-readme-stats.vercel.app/api/wakatime?username=Antim_Pal">
+<img height="300px" width="400px" src="https://wakatime.com/share/@Antim_Pal/1fbe1ed9-7de3-4fab-acb2-e7f49f4875df.svg"/>
+</p>
+
 
 ## Index
 
@@ -77,7 +87,11 @@ We encourage you to contribute to TechInterviewMaster by adding new questions, r
 
 We welcome contributions! Please read the [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) and open an issue or pull request. All types of contributions are appreciated, from fixing typos to adding new questions or solutions.
 
-## File Structure
+## Contributers
+
+<p align="center">
+  <img src="./docs/contributers.svg">
+</p>
 
 ## Support
 
