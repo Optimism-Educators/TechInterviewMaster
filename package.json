@@ -1,35 +1,35 @@
 {
-  "name": "tech-interview-master",
-  "version": "1.0.0",
-  "description": "A comprehensive repository for mastering technical interviews, including templates, questions, and resources for various technologies.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/your-username/tech-interview-master.git"
-  },
-  "keywords": [
-    "interview",
-    "templates",
-    "resources",
-    "data-science",
-    "python",
-    "nodejs",
-    "web-development"
-  ],
-  "author": "Your Name",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/your-username/tech-interview-master/issues"
-  },
-  "homepage": "https://github.com/your-username/tech-interview-master#readme",
-  "dependencies": {
-    "express": "^4.18.2",
-    "dotenv": "^16.0.3"
-  },
-  "devDependencies": {
-    "jest": "^29.5.0"
-  }
+     "name": "tech-interview-master",
+     "version": "1.0.0",
+     "description": "A comprehensive repository for mastering technical interviews, including templates, questions, and resources for various technologies.",
+     "main": "index.js",
+     "scripts": {
+          "test": "echo \"Error: no test specified\" && exit 1"
+     },
+     "repository": {
+          "type": "git",
+          "url": "git+https://github.com/your-username/tech-interview-master.git"
+     },
+     "keywords": [
+          "interview",
+          "templates",
+          "resources",
+          "data-science",
+          "python",
+          "nodejs",
+          "web-development"
+     ],
+     "author": "Your Name",
+     "license": "MIT",
+     "bugs": {
+          "url": "https://github.com/your-username/tech-interview-master/issues"
+     },
+     "homepage": "https://github.com/your-username/tech-interview-master#readme",
+     "dependencies": {
+          "express": "^4.18.2",
+          "dotenv": "^16.0.3"
+     },
+     "devDependencies": {
+          "jest": "^29.5.0"
+     }
 }
