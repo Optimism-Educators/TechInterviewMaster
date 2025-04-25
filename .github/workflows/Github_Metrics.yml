@@ -1,15 +1,15 @@
-# .github/workflows/metrics.yml
 name: Github_Metrics
 
 on:
   schedule:
-    - cron: "0 1 * * *"   # 6:30 AM IST
-    - cron: "0 9 * * *"   # 2:30 PM IST
-    - cron: "0 17 * * *"  # 10:30 PM IST
+    - cron: "0 0 * * *"    # 5:30 AM IST
+    - cron: "0 6 * * *"    # 11:30 AM IST
+    - cron: "0 13 * * *"   # 6:30 PM IST
   workflow_dispatch:
 
 permissions:
   contents: write
+  pull-requests: write
   actions: read
 
 jobs:
@@ -17,91 +17,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 🦑 Checkout repo
+      - name: 🧾 Checkout repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: 🧰 Install jq
+      - name: 🛠 Install dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y jq
 
-      - name: 📁 Create SVG directory
-        run: mkdir -p SVG
-
-      - name: 🧠 Followup
+      # ⚙️ Generate LeetCode Metrics
+      - name: 📊 LeetCode Stats
         uses: lowlighter/metrics@latest
         with:
-          filename: SVG/followup.svg
+          filename: SVG/leetcode.svg
           token: ${{ secrets.GH_METRICS_TOKEN }}
           base: ""
-          plugin_followup: yes
-          plugin_followup_sections: repositories, user
-          plugin_followup_indepth: yes
-          plugin_followup_archived: no
-
-      - name: 🏆 Achievements
-        uses: lowlighter/metrics@latest
-        with:
-          filename: SVG/achievements.svg
-          token: ${{ secrets.GH_METRICS_TOKEN }}
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_fortune: yes
-
-      - name: 🤝 Sponsors
-        uses: lowlighter/metrics@latest
-        with:
-          filename: SVG/sponsors.svg
-          token: ${{ secrets.GH_METRICS_TOKEN }}
-          base: ""
-          plugin_sponsors: yes
-          plugin_sponsors_past: yes
-          plugin_sponsorships: yes
-          plugin_sponsorships_sections: amount
+          plugin_leetcode: yes
+          plugin_leetcode_user: antim_pal
+          plugin_leetcode_sections: solved, skills, recent
           config_timezone: Asia/Kolkata
 
-      - name: 🧪 Languages
-        uses: lowlighter/metrics@latest
-        with:
-          filename: SVG/languages.svg
-          token: ${{ secrets.GH_METRICS_TOKEN }}
-          base: ""
-          plugin_languages: yes
-          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, vue, scala, c, c++, ejs
-          plugin_languages_details: lines, bytes-size, percentage
-          plugin_languages_sections: most-used, recently-used
-          plugin_languages_indepth: yes
-          plugin_languages_limit: 6
-          plugin_topics: yes
-          plugin_topics_limit: 10
-          plugin_topics_mode: icons
-          config_timezone: Asia/Kolkata
-
-      - name: 💬 Discussions
-        uses: lowlighter/metrics@latest
-        with:
-          filename: SVG/discussions.svg
-          token: ${{ secrets.GH_METRICS_TOKEN }}
-          base: ""
-          plugin_discussions: yes
-          plugin_discussions_categories_limit: 12
-          plugin_discussions_categories: yes
-          config_timezone: Asia/Kolkata
-
-      - name: 💬 Reactions
-        uses: lowlighter/metrics@latest
-        with:
-          filename: SVG/reactions.svg
-          token: ${{ secrets.GH_METRICS_TOKEN }}
-          base: ""
-          plugin_reactions: yes
-          plugin_reactions_limit: 100
-          plugin_reactions_details: percentage
-
-      - name: 📈 Lines of Code Changed
+      # 📈 Lines of Code
+      - name: 🐙 Lines of Code
         uses: lowlighter/metrics@latest
         with:
           filename: SVG/lines.svg
@@ -113,41 +52,8 @@ jobs:
           plugin_lines_repositories_limit: 50
           config_timezone: Asia/Kolkata
 
-      - name: 🧠 LeetCode
-        uses: lowlighter/metrics@latest
-        with:
-          filename: SVG/leetcode.svg
-          token: ${{ secrets.GH_METRICS_TOKEN }}
-          base: ""
-          plugin_leetcode: yes
-          plugin_leetcode_user: antim_pal
-          plugin_leetcode_sections: solved, skills, recent
-          config_timezone: Asia/Kolkata
-
-      - name: 🤝 Contribution
-        uses: lowlighter/metrics@latest
-        with:
-          filename: SVG/contribution.svg
-          token: ${{ secrets.GH_METRICS_TOKEN }}
-          base: ""
-          template: repository
-          repo: TechInterviewMaster
-          plugin_contributors: yes
-          plugin_contributors_contributions: yes
-          config_timezone: Asia/Kolkata
-
-      - name: 🧑‍💻 Code
-        uses: lowlighter/metrics@latest
-        with:
-          filename: SVG/code.svg
-          token: ${{ secrets.GH_METRICS_TOKEN }}
-          base: ""
-          plugin_code: yes
-          plugin_code_lines: 12
-          plugin_code_visibility: public
-          plugin_code_languages: python
-
-      - name: 🏷️ Topics
+      # 🏷️ Topics Overview
+      - name: 📦 Topics
         uses: lowlighter/metrics@latest
         with:
           filename: SVG/topics.svg
@@ -159,9 +65,25 @@ jobs:
           plugin_topics_mode: icons
           config_timezone: Asia/Kolkata
 
-      - name: ✅ Commit SVG updates
-        uses: EndBug/add-and-commit@v9
+      # 🤝 Reactions
+      - name: 👍 Reactions
+        uses: lowlighter/metrics@latest
         with:
-          message: "chore: update metrics SVGs"
-          add: "SVG/*.svg"
-          default_author: github_actions
+          filename: SVG/reactions.svg
+          token: ${{ secrets.GH_METRICS_TOKEN }}
+          base: ""
+          plugin_reactions: yes
+          plugin_reactions_limit: 100
+          plugin_reactions_details: percentage
+          config_timezone: Asia/Kolkata
+
+      # ✅ Create Pull Request if changes exist
+      - name: Create Pull Request for SVG updates
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GH_METRICS_TOKEN }}
+          branch: metrics/svg-update
+          commit-message: "chore: update metrics SVGs"
+          title: "chore: update metrics SVGs"
+          body: "Auto-generated update of SVG files in the `SVG/` folder."
+          add-paths: SVG/*.svg
