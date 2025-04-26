@@ -1,39 +1,33 @@
 name: Code
 
 on:
+  schedule:
+    - cron: "0 */2 * * *"   # Every 2 hours
   pull_request:
     branches:
-      - main            # ✅ Change this if your default branch is different
+      - main
   workflow_dispatch:
-  # schedule:
-  #   - cron: "0 0 * * *"    # Every day at 00:00 UTC
-  #   - cron: "0 10 * * *"   # Every day at 10:00 UTC
-  #   - cron: "0 16 * * *"   # Every day at 16:00 UTC
-  #   - cron: "0 22 * * *"   # Every day at 22:00 UTC
 
 permissions:
-  contents: write     # ✅ To push updates or create PRs
-  actions: read       # ✅ To allow action execution
+  contents: write
+  actions: read
 
 jobs:
   metrics:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout your profile repo
       - name: 🦑 Checkout repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: false
 
-      # 2️⃣ Install jq (required by lowlighter/metrics)
       - name: 🦑 Install jq
         run: |
           sudo apt-get update
           sudo apt-get install -y jq
 
-      # Code
       - name: 🐙Code
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
@@ -46,14 +40,12 @@ jobs:
           plugin_code: yes
           plugin_code_lines: 12
           plugin_code_visibility: public
-          plugin_code_languages: python 
+          plugin_code_languages: python
 
-
-      # 9️⃣ Commit & push all SVG updates to a PR
       - name: 🦑 Commit & Create PR
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GH_METRICS_TOKEN }}
           branch: metrics-update
           title: "chore: update all metrics SVGs"
-          body: "Auto-generated metrics via iamAntimPal/metrics"
+          body: "Auto-generated metrics via lowlighter/metrics"
