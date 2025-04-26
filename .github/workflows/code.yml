@@ -39,7 +39,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: code.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GH_METRICS_TOKEN }}
           base: ""
           output_action: gist
           committer_gist: ${{ secrets.WORKFLOW_GIST }}
@@ -53,7 +53,7 @@ jobs:
       - name: 🦑 Commit & Create PR
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GH_METRICS_TOKEN }}
           branch: metrics-update
           title: "chore: update all metrics SVGs"
           body: "Auto-generated metrics via iamAntimPal/metrics"
