@@ -1,0 +1,89 @@
+name: Github_Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"    # 5:30 AM IST
+    - cron: "0 6 * * *"    # 11:30 AM IST
+    - cron: "0 13 * * *"   # 6:30 PM IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: read
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🧾 Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🛠 Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      # ⚙️ Generate LeetCode Metrics
+      - name: 📊 LeetCode Stats
+        uses: lowlighter/metrics@latest
+        with:
+          filename: SVG/leetcode.svg
+          token: ${{ secrets.GH_METRICS_TOKEN }}
+          base: ""
+          plugin_leetcode: yes
+          plugin_leetcode_user: antim_pal
+          plugin_leetcode_sections: solved, skills, recent
+          config_timezone: Asia/Kolkata
+
+      # 📈 Lines of Code
+      - name: 🐙 Lines of Code
+        uses: lowlighter/metrics@latest
+        with:
+          filename: SVG/lines.svg
+          token: ${{ secrets.GH_METRICS_TOKEN }}
+          base: ""
+          plugin_lines: yes
+          plugin_lines_sections: base, repositories
+          plugin_lines_skipped: testing, The-Futurists_Manthan_Frontend
+          plugin_lines_repositories_limit: 50
+          config_timezone: Asia/Kolkata
+
+      # 🏷️ Topics Overview
+      - name: 📦 Topics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: SVG/topics.svg
+          token: ${{ secrets.GH_METRICS_TOKEN }}
+          base: ""
+          plugin_topics: yes
+          plugin_topics_limit: 10
+          plugin_topics_sort: star, activity
+          plugin_topics_mode: icons
+          config_timezone: Asia/Kolkata
+
+      # 🤝 Reactions
+      - name: 👍 Reactions
+        uses: lowlighter/metrics@latest
+        with:
+          filename: SVG/reactions.svg
+          token: ${{ secrets.GH_METRICS_TOKEN }}
+          base: ""
+          plugin_reactions: yes
+          plugin_reactions_limit: 100
+          plugin_reactions_details: percentage
+          config_timezone: Asia/Kolkata
+
+      # ✅ Create Pull Request if changes exist
+      - name: Create Pull Request for SVG updates
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GH_METRICS_TOKEN }}
+          branch: metrics/svg-update
+          commit-message: "chore: update metrics SVGs"
+          title: "chore: update metrics SVGs"
+          body: "Auto-generated update of SVG files in the `SVG/` folder."
+          add-paths: SVG/*.svg
