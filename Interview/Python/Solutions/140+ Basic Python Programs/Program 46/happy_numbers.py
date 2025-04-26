@@ -20,3 +20,4 @@ print("Happy Numbers between 1 and 100:")
 for i in range(1, 101):
      if is_happy_number(i):
           print(i, end=" ")
+          
