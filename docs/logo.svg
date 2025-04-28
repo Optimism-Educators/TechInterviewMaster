@@ -1,0 +1,41 @@
+<svg width="300" height="300" viewBox="0 0 300 300"
+     xmlns="http://www.w3.org/2000/svg" style="background:transparent;" fill="none">
+     <style>
+    .pulse {
+      animation: pulse 2s infinite;
+      transform-origin: center;
+    }
+    .glow {
+      filter: drop-shadow(0 0 5px #ff4b81) drop-shadow(0 0 10px #ff4b81);
+    }
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      50% {
+        transform: scale(1.05);
+        opacity: 0.85;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+     </style>
+
+     <!-- Circle Background -->
+     <circle cx="150" cy="150" r="140" fill="#0d1117" />
+
+     <g class="pulse glow">
+          <!-- Big Code Icon -->
+          <text x="50%" y="135" dominant-baseline="middle" text-anchor="middle" font-size="80" font-family="Fira Code, monospace" fill="#ff4b81" font-weight="bold">
+      &lt;/&gt;
+          </text>
+
+          <!-- TechInterviewMaster Text -->
+          <text x="50%" y="200" dominant-baseline="middle" text-anchor="middle" font-size="18" font-family="Fira Code, monospace" fill="#ffffff" font-weight="bold">
+      TechInterviewMaster
+          </text>
+     </g>
+</svg>
