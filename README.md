@@ -1,3 +1,7 @@
+<pre align="center">
+  <a href="" ><img src="https://github.com/iamAntimPal/TechInterviewMaster/blob/main/docs/logo.svg"/></a>
+</pre>
+
 <div align="center">
 <a href="https://github.com/iamAntimPal/TechInterviewMaster/forks">
   <img height="25px" src="https://img.shields.io/github/stars/iamAntimPal/TechInterviewMaster?style=social" alt="GitHub stars"></a>
