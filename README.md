@@ -18,9 +18,9 @@
   <img height="25px" src="https://img.shields.io/github/last-commit/iamAntimPal/TechInterviewMaster"/>
     <a href="https://github.com/iamAntimPal/TechInterviewMaster/commits/main/"><img height="25px" src="https://img.shields.io/github/commit-activity/y/iamAntimPal/TechInterviewMaster" alt="PRs Welcome"></a>
   <a href="https://wakatime.com/badge/user/f1f7c244-1d72-4129-94b7-6b4d1972b55a/project/c0a0249d-de59-4cbe-aa51-68012ee6f377"><img height="25px"src="https://wakatime.com/badge/user/f1f7c244-1d72-4129-94b7-6b4d1972b55a/project/c0a0249d-de59-4cbe-aa51-68012ee6f377.svg" alt="wakatime"></a>
+  <a href=""><img src="https://img.shields.io/github/downloads/iamAntimPal/TechInterviewMaster/total" height="25"/></a>
+  <a href="https://github.com/iamAntimPal/Workflows/actions/workflows/Code.yml"><img src="https://github.com/iamAntimPal/Workflows/actions/workflows/Code.yml/badge.svg" height="25"/></a>
 </div>
-
-[![Code](https://github.com/iamAntimPal/Workflows/actions/workflows/Code.yml/badge.svg)](https://github.com/iamAntimPal/Workflows/actions/workflows/Code.yml)
 # TechInterviewMaster
 
 A comprehensive, community-driven hub for technical interview Q&A! 🎯 Python 🐍, JavaScript 🟨, Java ☕, Git 🐙 & more—from beginner to advanced levels. Contribute & excel! 💡✨
