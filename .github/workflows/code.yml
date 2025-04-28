@@ -1,9 +1,9 @@
 name: Code
 
 on:
-  pull_request:
-    branches:
-      - main            # ✅ Change this if your default branch is different
+  schedule:
+    - cron: "0 */6 * * *"    # Every day at 00:00 UTC
+  
   workflow_dispatch:
   # schedule:
   #   - cron: "0 0 * * *"    # Every day at 00:00 UTC
