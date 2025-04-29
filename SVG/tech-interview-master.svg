@@ -1,0 +1,43 @@
+<svg width="100" height="80"
+     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120">
+     <style>
+    .glow {
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% {
+        fill: #3b82f6;
+        filter: drop-shadow(0 0 4px #3b82f6);
+      }
+      50% {
+        fill: #2563eb;
+        filter: drop-shadow(0 0 10px #2563eb);
+      }
+      100% {
+        fill: #3b82f6;
+        filter: drop-shadow(0 0 4px #3b82f6);
+      }
+    }
+
+    .text {
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      font-size: 22px;
+      fill: #111827;
+    }
+     </style>
+
+     <!-- Lightbulb icon -->
+     <g class="glow" transform="translate(20, 20)">
+          <circle cx="30" cy="30" r="28" stroke="#3b82f6" stroke-width="4" fill="none"/>
+          <path d="M20 30 L25 24 L25 36 L20 30 M40 30 L35 24 L35 36 L40 30" stroke="#3b82f6" stroke-width="2" fill="none"/>
+          <line x1="20" y1="60" x2="40" y2="60" stroke="#3b82f6" stroke-width="4" />
+          <line x1="22" y1="65" x2="38" y2="65" stroke="#3b82f6" stroke-width="2" />
+     </g>
+
+     <!-- Text -->
+     <text x="90" y="50" class="text">Tech</text>
+     <text x="90" y="75" class="text">Interview</text>
+     <text x="90" y="100" class="text">Master</text>
+</svg>
