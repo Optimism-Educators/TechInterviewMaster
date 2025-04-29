@@ -1,4 +1,8 @@
 <pre align="center">
+  <a href="" ><img src="https://github.com/iamAntimPal/TechInterviewMaster/blob/main/SVG/tech-interview-master.svg"/></a>
+</pre>
+
+<pre align="center">
   <a href="" ><img src="https://github.com/iamAntimPal/TechInterviewMaster/blob/main/docs/logo.svg"/></a>
 </pre>
 
